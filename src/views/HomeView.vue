@@ -33,7 +33,7 @@
       </header>
 
       <section class="mx-auto">
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
           <div class="absolute inset-0 bg-[url(/title1_logo.webp)] bg-contain bg-center bg-no-repeat z-0">
@@ -84,7 +84,7 @@
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/red_b.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/40 z-0 drop-shadow-2xl"></div>
@@ -101,7 +101,7 @@
           </vue-plyr>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="flex flex-col gap-5 bg-[url(/blue_b.webp)] bg-no-repeat relative bg-cover bg-center p-4 border-4 border-black hover:border-slate-200 transition-all duration-500">
           <div class="absolute inset-0 bg-black/40 z-0 drop-shadow-2xl"></div>
@@ -113,7 +113,7 @@
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
@@ -122,7 +122,7 @@
               class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase underline text-shadow-lg text-shadow-black">
               Tim Penerjemah</h2>
 
-            <div class="gap-0 grid max-md:grid-cols-1 max-lg:grid-cols-2 min-lg:grid-cols-3 justify-items-center">
+            <div class="gap-0 grid max-md:grid-cols-1 max-lg:grid-cols-2 min-lg:grid-cols-3">
               <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
                 data-aos-once="true" data-aos-anchor-placement="top-center"
                 href="https://www.facebook.com/andikaalakate"
@@ -179,7 +179,7 @@
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/book1.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
@@ -192,7 +192,7 @@
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-150 w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/cha_i1ar.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
@@ -209,7 +209,7 @@
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/beach_l2a.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
@@ -236,8 +236,7 @@
         </section>
       </section>
 
-      <secttion data-aos="fade-up" data-aos-duration="00" data-aos-easing="ease-in-out" data-aos-mirror="true"
-        data-aos-once="true" data-aos-anchor-placement="top-center"
+      <secttion
         class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
         <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center" class="grid grid-cols-3 w-full h-full gap-3">
