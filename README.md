@@ -1,0 +1,1 @@
+Halaman Website untuk Umineko Project Terjemahan Bahasa Indonesia.
