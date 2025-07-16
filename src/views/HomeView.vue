@@ -117,7 +117,7 @@
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
-          <div class="mx-auto relative">
+          <div class="mx-auto">
             <h2
               class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase underline text-shadow-lg text-shadow-black">
               Tim Penerjemah</h2>
@@ -126,9 +126,9 @@
               <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
                 data-aos-once="true" data-aos-anchor-placement="top-center"
                 href="https://www.facebook.com/andikaalakate"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden">
+                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
                 <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
+                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40 drop-shadow-2xl">
                 </div>
                 <h2
                   class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
@@ -143,7 +143,7 @@
               </a>
               <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
                 data-aos-once="true" data-aos-anchor-placement="top-center" href="https://www.facebook.com/frederizal"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden">
+                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
                 <div
                   class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
                 </div>
@@ -160,7 +160,7 @@
               </a>
               <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
                 data-aos-once="true" data-aos-anchor-placement="top-center" href="https://www.facebook.com/masup.kun"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden">
+                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
                 <div
                   class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
                 </div>
