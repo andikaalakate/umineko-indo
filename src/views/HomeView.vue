@@ -220,7 +220,7 @@
             <div class="grid grid-cols-3 gap-6 justify-center items-center mx-auto max-w-md w-full h-full">
               <a href="mailto:andikaalakate@gmail.com"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  src="/boxicons/svg/brands/bx-facebook.svg"
+                  src="/boxicons/svg/brands/bx-gmail.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://github/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
@@ -228,7 +228,7 @@
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://facebook/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  src="/boxicons/svg/brands/bx-gmail.svg"
+                  src="/boxicons/svg/brands/bx-facebook.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
             </div>
           </div>
