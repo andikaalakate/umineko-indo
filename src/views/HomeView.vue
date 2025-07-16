@@ -213,43 +213,40 @@
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/beach_l2a.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
-          <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-            data-aos-once="true" data-aos-anchor-placement="top-center" class="mx-auto relative w-full max-w-7xl">
+          <div class="mx-auto relative w-full max-w-7xl">
             <h2
               class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase underline text-shadow-lg text-shadow-black">
               Ingin Berkontribusi?</h2>
             <div class="grid grid-cols-3 gap-6 justify-center items-center mx-auto max-w-md w-full h-full">
               <a href="mailto:andikaalakate@gmail.com"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  :src="gm"
+                  src="/boxicons/svg/brands/bx-facebook.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://github/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  :src="gh"
+                  src="/boxicons/svg/brands/bx-github.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://facebook/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  :src="fb"
+                  src="/boxicons/svg/brands/bx-gmail.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
             </div>
           </div>
         </section>
+        <secttion
+          class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
+          <div class="grid grid-cols-3 w-full h-full gap-3">
+            <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
+              href="https://07th-expansion.net/umi_gensaku">Situs Resmi</a>
+            <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
+              href="https://umineko-project.org">Umineko Project</a>
+            <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
+              href="https://vndb.org/v24">VNDB</a>
+            <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500 col-span-3"
+              href="https://andikaalakate.vercel.app">Andika Alakate</a>
+          </div>
+        </secttion>
       </section>
-
-      <secttion
-        class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
-        <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-          data-aos-once="true" data-aos-anchor-placement="top-center" class="grid grid-cols-3 w-full h-full gap-3">
-          <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
-            href="https://07th-expansion.net/umi_gensaku">Situs Resmi</a>
-          <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
-            href="https://umineko-project.org">Umineko Project</a>
-          <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
-            href="https://vndb.org/v24">VNDB</a>
-          <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500 col-span-3"
-            href="https://andikaalakate.vercel.app">Andika Alakate</a>
-        </div>
-      </secttion>
     </main>
   </div>
 </template>
@@ -258,9 +255,6 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import ProgressList from '@components/ProgressList.vue'
 import Glosarium from '@components/Glosarium.vue'
-import fb from '@assets/boxicons/svg/brands/bx-facebook.svg'
-import gh from '@assets/boxicons/svg/brands/bx-github.svg'
-import gm from '@assets/boxicons/svg/brands/bx-gmail.svg'
 
 const isPastSection = ref(false)
 const heroSection = ref(null)
