@@ -115,6 +115,71 @@
 
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
+          class="min-xl:min-h-screen h-fit p-4 flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
+          <div
+            class="absolute inset-0 bg-[url(/team/magic-circle.webp)] bg-contain scale-125 bg-center bg-no-repeat z-0">
+          </div>
+          <div class="absolute inset-0 bg-black/60 z-1 drop-shadow-2xl"></div>
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+            data-aos-once="true" data-aos-anchor-placement="top-center" class="relative z-2 max-w-7xl p-4">
+            <h2
+              class="max-lg:text-4xl min-lg:text-5xl z-1 text-white font-bold uppercase underline text-shadow-lg text-shadow-black text-center pb-6">
+              Tentang
+            </h2>
+            <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
+              <span class="font-bold">Larus Team</span> adalah sekelompok penggemar visual novel yang memiliki satu
+              tujuan:
+              menerjemahkan dan memperkenalkan kisah <span class="font-bold">Umineko no <span
+                  class="text-red-500">Na</span>ku Koro ni</span> ke dalam <span class="font-bold">Bahasa
+                Indonesia</span> agar dapat dinikmati lebih luas tanpa batasan bahasa.
+            </p>
+            <br>
+            <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
+              Proyek ini menggunakan <span class="font-bold">Umineko Project</span> sebagai basis, yaitu versi mod
+              visual novel buatan komunitas
+              yang mendukung <span class="font-bold">resolusi tinggi</span>, <span class="font-bold">voice acting dari
+                PS3</span>,
+              <span class="font-bold">ilustrasi CG HD</span>, serta kemampuan untuk memilih teks dan UI modern.
+              Terjemahan kami didasarkan pada skrip dari <span class="font-bold">The Witch Hunt</span>, yang sudah lama
+              menjadi standar komunitas internasional.
+            </p>
+            <br>
+            <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
+              Kami berkomitmen menerjemahkan <span class="font-bold">seluruh delapan episode utama</span> Umineko,
+              beserta konten tambahan seperti:
+              <span class="italic">Tea Party</span>, <span class="italic">Tips</span>, <span
+                class="italic">Trophies</span>, dan <span class="italic">Grimoire</span>.
+              Tujuan kami adalah memberikan pengalaman membaca yang utuh dan setara dengan versi Jepang maupun Inggris.
+            </p>
+            <br>
+            <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
+              Kami percaya bahwa karya luar biasa seperti ini pantas diakses oleh lebih banyak orang secara sah dan
+              berkualitas.
+              Patch terjemahan kami hanya tersedia untuk mereka yang sudah memiliki <span class="font-bold">salinan
+                resmi</span> dari gim ini.
+              Kamu bisa membeli <span class="font-bold">Umineko no Naku Koro ni</span> dan <span
+                class="font-bold">Umineko no Naku Koro ni Chiru</span> di:
+              <a href="https://store.steampowered.com/bundle/5465/"
+                class="underline text-blue-400 hover:text-blue-300">Steam</a>,
+              <a href="https://www.gog.com/en/game/umineko_when_they_cry_question_arcs"
+                class="underline text-blue-400 hover:text-blue-300">GOG</a>, atau
+              <a href="https://www.mangagamer.com/detail.php?product_code=177"
+                class="underline text-blue-400 hover:text-blue-300">MangaGamer</a> untuk
+              versi Jepang.
+            </p>
+            <br>
+            <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
+              Kami bukan pemilik dari Umineko atau kontennya, dan tidak mendistribusikan gim bajakan.
+              <span class="font-bold">Larus Team</span> hanya menyediakan <span class="font-bold">patch
+                terjemahan</span> untuk
+              mendukung pengalaman
+              membaca yang legal dan nyaman bagi para pembaca Indonesia.
+            </p>
+          </div>
+        </section>
+
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+          data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
           <div class="mx-auto relative">
