@@ -317,7 +317,7 @@
             <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
               href="https://vndb.org/v24">VNDB</a>
             <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500 col-span-3"
-              href="https://andikaalakate.vercel.app">Andika Alakate</a>
+              href="https://facebook.com/larusumindo">Halaman Facebook</a>
           </div>
         </secttion>
       </section>
