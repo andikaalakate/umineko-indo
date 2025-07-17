@@ -115,7 +115,7 @@
 
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
-          class="min-xl:min-h-screen h-fit p-4 flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
+          class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
           <div
             class="absolute inset-0 bg-[url(/team/magic-circle.webp)] bg-contain scale-125 bg-center bg-no-repeat z-0">
           </div>
