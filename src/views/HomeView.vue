@@ -117,9 +117,9 @@
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
-          <div class="mx-auto">
+          <div class="mx-auto relative">
             <h2
-              class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase underline text-shadow-lg text-shadow-black">
+              class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase underline text-shadow-lg text-shadow-black">
               Tim Penerjemah</h2>
 
             <div class="gap-0 grid max-md:grid-cols-1 max-lg:grid-cols-2 min-lg:grid-cols-3">
