@@ -53,26 +53,28 @@ const getStatusIcon = (status) => {
         </div>
 
         <div class="mt-3 overflow-auto">
-            <h2 class="text-2xl text-center pb-4 uppercase font-bold">Daftar Terjemahan</h2>
-            <table v-if="chapters?.length" class="table-auto border-2 border-white text-center w-full">
-                <thead class="border-2 border-white">
-                    <tr class="border-2 border-white">
-                        <th class="border-2 border-white p-2">Nama</th>
-                        <th class="border-2 border-white p-2">Translator</th>
-                        <th class="border-2 border-white p-2">Diperbarui</th>
-                        <th class="border-2 border-white p-2">Status</th>
-                    </tr>
-                </thead>
-                <tbody class="border-2 border-white">
-                    <tr v-for="(ch, index) in chapters" :key="index" class="border-2 border-white">
-                        <td class="border-2 border-white p-2">{{ ch.name }}</td>
-                        <td class="border-2 border-white p-2">{{ ch.translator ?? 'Tidak ada' }}</td>
-                        <td class="border-2 border-white p-2">{{ ch.updatedAt ?? 'Belum ada' }}</td>
-                        <td class="border-2 border-white p-2" :class="getStatusIcon(ch.status).color">{{
-                            getStatusIcon(ch.status).icon }}</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div v-if="chapters?.length">
+                <h2 class="text-2xl text-center pb-4 uppercase font-bold">Daftar Terjemahan</h2>
+                <table class="table-auto border-2 border-white text-center w-full">
+                    <thead class="border-2 border-white">
+                        <tr class="border-2 border-white">
+                            <th class="border-2 border-white p-2">Nama</th>
+                            <th class="border-2 border-white p-2">Translator</th>
+                            <th class="border-2 border-white p-2">Diperbarui</th>
+                            <th class="border-2 border-white p-2">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="border-2 border-white">
+                        <tr v-for="(ch, index) in chapters" :key="index" class="border-2 border-white">
+                            <td class="border-2 border-white p-2">{{ ch.name }}</td>
+                            <td class="border-2 border-white p-2">{{ ch.translator ?? 'Tidak ada' }}</td>
+                            <td class="border-2 border-white p-2">{{ ch.updatedAt ?? 'Belum ada' }}</td>
+                            <td class="border-2 border-white p-2" :class="getStatusIcon(ch.status).color">{{
+                                getStatusIcon(ch.status).icon }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div v-else-if="status" class="text-gray-400 font-bold italic text-center">
                 {{ status === 'proses' ? 'Dalam proses...' : 'Belum dimulai' }}
             </div>
