@@ -175,6 +175,9 @@
               mendukung pengalaman
               membaca yang legal dan nyaman bagi para pembaca Indonesia.
             </p>
+
+            <a class="bg-black/75 border-2 border-white drop-shadow-2xl mt-4 py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
+              href="https://trakteer.id/larus-team/tip?open=true">Dukung Kami</a>
           </div>
         </section>
 
@@ -298,6 +301,7 @@
             </div>
           </div>
         </section>
+
         <secttion data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
           class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
