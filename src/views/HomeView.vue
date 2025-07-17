@@ -116,16 +116,20 @@
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
-          <div
-            class="absolute inset-0 bg-[url(/team/magic-circle.webp)] bg-contain scale-125 bg-center bg-no-repeat z-0">
+          <div class="absolute inset-0 bg-[url(/team/Logo.webp)] bg-contain scale-110 bg-center bg-no-repeat z-0">
           </div>
           <div class="absolute inset-0 bg-black/60 z-1 drop-shadow-2xl"></div>
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center" class="relative z-2 max-w-7xl p-4">
             <h2
-              class="max-lg:text-4xl min-lg:text-5xl z-1 text-white font-bold uppercase underline text-shadow-lg text-shadow-black text-center pb-6">
+              class="max-lg:text-4xl min-lg:text-5xl z-1 text-white font-bold uppercase underline text-shadow-lg text-shadow-black text-center pb-4">
               Tentang
             </h2>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+              data-aos-once="true" data-aos-anchor-placement="top-center"
+              class="min-lg:my-4 mb-2 w-full h-full transition-all duration-500 hover:border-slate-100 cursor-pointer bg-gray-800/60 border-2 border-gray-600 overflow-hidden">
+              <img src="/team/Banner.webp" alt="" class="object-cover hover:scale-110 transition-all duration-500 w-full h-full">
+            </div>
             <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
               <span class="font-bold">Larus Team</span> adalah sekelompok penggemar visual novel yang memiliki satu
               tujuan:
