@@ -226,7 +226,7 @@
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
                   src="/boxicons/svg/brands/bx-github.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
-              <a href="https://facebook/andikaalakate/"
+              <a href="https://facebook.com/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
                   src="/boxicons/svg/brands/bx-facebook.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
