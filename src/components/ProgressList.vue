@@ -26,7 +26,7 @@ import EpisodeProgress from './EpisodeProgress.vue'
 
 const ep1Chapters = [
     {
-        name: 'Chapter 0',
+        name: 'Prolog',
         status: 'done',
         translator: 'Andika Alakate',
         updatedAt: '2025-07-15',
@@ -88,7 +88,13 @@ const ep1Chapters = [
         updatedAt: '2025-07-15',
         note: 'Sudah QC'
     },
-    { name: 'Chapter 9', done: false },
+    {
+        name: 'Chapter 9',
+        status: 'done',
+        translator: 'Frederizal',
+        updatedAt: '2025-07-16',
+        note: 'Sudah QC'
+    },
     { name: 'Chapter 10', done: false },
     { name: 'Chapter 11', done: false },
     { name: 'Chapter 12', done: false },
@@ -100,5 +106,19 @@ const ep1Chapters = [
     { name: 'Tea Party', done: false },
     { name: 'Ura', done: false },
     { name: 'Bonus', done: false },
+    {
+        name: 'Movie (Subtitle)',
+        status: 'done',
+        translator: 'Frederizal, Andika Alakate',
+        updatedAt: '2025-07-10',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'UI / UX',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-07-14',
+        note: 'Sudah QC'
+    },
 ]
 </script>

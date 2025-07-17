@@ -24,9 +24,8 @@ const getStatusIcon = (status) => {
 </script>
 
 <template>
-    <button data-aos="fade-up" data-aos-duration="1000"
-        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top-center"
-        :popovertarget="title"
+    <button data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        data-aos-once="true" data-aos-anchor-placement="top-center" :popovertarget="title"
         class="mx-auto group hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-gray-800/60 border-2 border-gray-600">
         <div class="aspect-video relative overflow-hidden">
             <div
@@ -54,6 +53,7 @@ const getStatusIcon = (status) => {
         </div>
 
         <div class="mt-3 overflow-auto">
+            <h2 class="text-2xl text-center pb-4 uppercase font-bold">Daftar Terjemahan</h2>
             <table v-if="chapters?.length" class="table-auto border-2 border-white text-center w-full">
                 <thead class="border-2 border-white">
                     <tr class="border-2 border-white">
