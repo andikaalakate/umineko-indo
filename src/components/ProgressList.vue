@@ -2,6 +2,11 @@
     <div class="gap-0 grid max-md:grid-cols-1 min-md:grid-cols-2 justify-items-center">
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center"
+            class="min-md:col-span-2 w-full h-full transition-all duration-500 hover:border-slate-100 cursor-pointer bg-gray-800/60 border-2 border-gray-600">
+            <img src="/poster.webp" alt="" class="object-cover w-full h-full">
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+            data-aos-once="true" data-aos-anchor-placement="top-center"
             class="py-4 min-md:col-span-2 w-full h-full transition-all duration-500 hover:border-slate-100 cursor-pointer bg-gray-800/60 border-2 border-gray-600">
             <img src="/title1_logo.webp" alt="" class="object-cover w-full h-full">
         </div>
