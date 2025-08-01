@@ -5,7 +5,7 @@ const props = defineProps({
     chapters: Array,
     status: {
         type: String,
-        validator: (value) => ['proses', 'belum'].includes(value),
+        validator: (value) => ['done', 'proses', 'belum'].includes(value),
     }
 })
 
@@ -14,9 +14,10 @@ const getStatusIcon = (status) => {
     switch (status) {
         case 'done':
             return { icon: '✅', color: 'text-green-400' }
-        case 'draft':
-            return { icon: '🟨', color: 'text-yellow-400' }
-        case 'not-started':
+        case 'proses':
+            return { icon: '📝', color: 'text-yellow-400' }
+        case 'belum':
+            return { icon: '❌', color: 'text-red-400' }
         default:
             return { icon: '❌', color: 'text-red-400' }
     }

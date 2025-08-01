@@ -151,8 +151,8 @@
             <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
               Kami berkomitmen menerjemahkan <span class="font-bold">seluruh delapan episode utama</span> Umineko,
               beserta konten tambahan seperti:
-              <span class="italic">Tea Party</span>, <span class="italic">Tips</span>, <span
-                class="italic">Trophies</span>, dan <span class="italic">Grimoire</span>.
+              <span class="italic">Tea Party</span>, <span class="italic">Ura</span>, <span class="italic">Bonus</span>, <span class="italic">Tips</span>, <span class="italic">Trophies</span>, dan <span
+                class="italic">Grimoire</span>.
               Tujuan kami adalah memberikan pengalaman membaca yang utuh dan setara dengan versi Jepang maupun Inggris.
             </p>
             <br>
