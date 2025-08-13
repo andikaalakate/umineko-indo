@@ -4,7 +4,7 @@
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
             data-aos-anchor-placement="top-center" :href="member.link"
             class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative"
-            :class="member.startClass ? 'min-lg:col-start-' + member.startClass : ''">
+            :class="member.startClass ?? member.startClass">
             <div
                 class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
             </div>
@@ -34,7 +34,7 @@ const teams = [
         pic: '/team/Andika_Alakate.webp',
         link: 'https://www.facebook.com/andikaalakate',
         gradient: 'from-cyan-700/50',
-        startClass: '2'
+        startClass: 'min-lg:col-start-2'
     },
     {
         nama: 'Frederizal',
@@ -42,7 +42,7 @@ const teams = [
         pic: '/team/Frederizal.webp',
         link: 'https://www.facebook.com/frederizal',
         gradient: 'from-red-700/50',
-        startClass: '1'
+        startClass: 'min-lg:col-start-1'
     },
     {
         nama: 'Mamat Supriyanto',
