@@ -191,7 +191,7 @@ const ep2Chapters = [
     },
     {
         name: 'Chapter 7',
-        status: 'done',
+        status: 'proses',
         translator: 'Lilith TL',
         updatedAt: '2025-08-12',
         note: 'Sudah QC'
