@@ -122,7 +122,13 @@ const ep1Chapters = [
     { name: 'Chapter 17' },
     { name: 'Tea Party' },
     { name: 'Ura' },
-    { name: 'Bonus' },
+    {
+        name: 'Bonus',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC'
+    },
     {
         name: 'Movie (Subtitle)',
         status: 'done',
@@ -211,7 +217,13 @@ const ep2Chapters = [
     { name: 'Chapter 20' },
     { name: 'Tea Party' },
     { name: 'Ura' },
-    { name: 'Bonus' },
+    {
+        name: 'Bonus',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC'
+    },
     {
         name: 'Movie (Subtitle)',
         status: 'done',
@@ -300,7 +312,13 @@ const ep3Chapters = [
     { name: 'Chapter 20' },
     { name: 'Tea Party' },
     { name: 'Ura' },
-    { name: 'Bonus' },
+    {
+        name: 'Bonus',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC'
+    },
     {
         name: 'Movie (Subtitle)',
         status: 'done',
