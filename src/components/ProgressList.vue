@@ -120,8 +120,14 @@ const ep1Chapters = [
     { name: 'Chapter 15' },
     { name: 'Chapter 16' },
     { name: 'Chapter 17' },
-    { name: 'Tea Party' },
-    { name: 'Ura' },
+    { name: 'Tea Party (Ch 18)' },
+    {
+        name: 'Ura (Ch 19)',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC'
+    },
     {
         name: 'Bonus',
         status: 'done',
@@ -213,10 +219,13 @@ const ep2Chapters = [
     { name: 'Chapter 16' },
     { name: 'Chapter 17' },
     { name: 'Chapter 18' },
-    { name: 'Chapter 19' },
-    { name: 'Chapter 20' },
-    { name: 'Tea Party' },
-    { name: 'Ura' },
+    { name: 'Tea Party (Ch 19)' },
+    {
+        name: 'Ura (Ch 20)',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC' },
     {
         name: 'Bonus',
         status: 'done',
@@ -308,10 +317,8 @@ const ep3Chapters = [
     { name: 'Chapter 16' },
     { name: 'Chapter 17' },
     { name: 'Chapter 18' },
-    { name: 'Chapter 19' },
-    { name: 'Chapter 20' },
-    { name: 'Tea Party' },
-    { name: 'Ura' },
+    { name: 'Tea Party (Ch 19)' },
+    { name: 'Ura (Ch 20)' },
     {
         name: 'Bonus',
         status: 'done',
