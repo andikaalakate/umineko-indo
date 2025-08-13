@@ -69,7 +69,7 @@ const teams = [
         nama: 'Lilith TL',
         role: 'Main Translator 5',
         pic: '/team/LilithTL.webp',
-        link: 'https://www.facebook.com/profile.php?id=100088529629772',
+        link: 'https://www.tiktok.com/@azazelltrinity',
         gradient: 'from-red-700/50'
     },
     {
