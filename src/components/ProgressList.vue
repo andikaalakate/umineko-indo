@@ -12,7 +12,7 @@
         </div>
         <EpisodeProgress pic="/episode/c0101_a.webp" title="Episode 1" :chapters="ep1Chapters" />
         <EpisodeProgress pic="/episode/c0202_a.webp" title="Episode 2" :chapters="ep2Chapters" />
-        <EpisodeProgress pic="/episode/c0301.webp" title="Episode 3" :status="'proses'" />
+        <EpisodeProgress pic="/episode/c0301.webp" title="Episode 3" :chapters="ep3Chapters" />
         <EpisodeProgress pic="/episode/e0405.webp" title="Episode 4" :status="'belum'" />
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center"
@@ -149,9 +149,9 @@ const ep2Chapters = [
     },
     {
         name: 'Chapter 1',
-        status: 'proses',
+        status: 'done',
         translator: 'Mamat Supriyanto',
-        updatedAt: '2025-07-29',
+        updatedAt: '2025-08-09',
         note: 'Sudah QC'
     },
     {
@@ -175,9 +175,27 @@ const ep2Chapters = [
         updatedAt: '2025-07-29',
         note: 'Sudah QC'
     },
-    { name: 'Chapter 5' },
-    { name: 'Chapter 6' },
-    { name: 'Chapter 7' },
+    {
+        name: 'Chapter 5',
+        status: 'proses',
+        translator: 'Mamat Supriyanto',
+        updatedAt: '2025-08-09',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 6',
+        status: 'done',
+        translator: 'Lilith TL',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 7',
+        status: 'done',
+        translator: 'Lilith TL',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
     { name: 'Chapter 8' },
     { name: 'Chapter 9' },
     { name: 'Chapter 10' },
@@ -196,7 +214,7 @@ const ep2Chapters = [
     { name: 'Bonus' },
     {
         name: 'Movie (Subtitle)',
-        status: 'proses',
+        status: 'done',
         translator: 'Angga Kun',
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
@@ -209,4 +227,94 @@ const ep2Chapters = [
         note: 'Sudah QC'
     },
 ]
+
+const ep3Chapters = [
+    {
+        name: 'Prolog',
+        status: 'proses',
+        translator: 'Bil',
+        updatedAt: '2025-07-29',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 1',
+        status: 'done',
+        translator: 'Grey',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 2',
+        // status: 'proses',
+        // translator: 'Grey',
+        // updatedAt: '2025-08-12',
+        // note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 3',
+        // status: 'proses',
+        // translator: 'Bagus Setiawan',
+        // updatedAt: '2025-07-29',
+        // note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 4',
+        // status: 'proses',
+        // translator: 'Lawliet',
+        // updatedAt: '2025-07-29',
+        // note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 5',
+        // status: 'proses',
+        // translator: 'Mamat Supriyanto',
+        // updatedAt: '2025-08-09',
+        // note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 6',
+        // status: 'done',
+        // translator: 'Lilith TL',
+        // updatedAt: '2025-08-12',
+        // note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 7',
+        // status: 'done',
+        // translator: 'Lilith TL',
+        // updatedAt: '2025-08-12',
+        // note: 'Sudah QC'
+    },
+    { name: 'Chapter 8' },
+    { name: 'Chapter 9' },
+    { name: 'Chapter 10' },
+    { name: 'Chapter 11' },
+    { name: 'Chapter 12' },
+    { name: 'Chapter 13' },
+    { name: 'Chapter 14' },
+    { name: 'Chapter 15' },
+    { name: 'Chapter 16' },
+    { name: 'Chapter 17' },
+    { name: 'Chapter 18' },
+    { name: 'Chapter 19' },
+    { name: 'Chapter 20' },
+    { name: 'Tea Party' },
+    { name: 'Ura' },
+    { name: 'Bonus' },
+    {
+        name: 'Movie (Subtitle)',
+        status: 'done',
+        translator: 'Angga Kun',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'UI / UX',
+        status: 'proses',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+]
+
 </script>

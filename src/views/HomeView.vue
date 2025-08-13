@@ -10,7 +10,7 @@
             Umineko Project<br>Terjemahan Bahasa Indonesia
           </h2>
           <p class="text-gray-300">
-            Proyek ini bersifat open source dan siapa pun boleh berkontribusi kapan saja! Prioritas kami adalah
+            Proyek ini kami mulai dengan cinta dan harapan! Prioritas kami adalah
             kualitas,
             bukan kecepatan.
           </p>
@@ -25,9 +25,9 @@
         <div
           :class="['h-full w-full mx-auto transition-all duration-500 flex justify-between items-center text-white', isPastSection ? 'max-w-[88rem]' : 'max-w-full']">
           <a href="#hero" class="text-xl font-bold">LARUS TEAM</a>
-          <a href="https://github.com/andikaalakate/umineko-scripting-idn" target="_blank"
+          <a href="https://trakteer.id/larus-team/tip?open=true" target="_blank"
             class="text-white font-bold hover:underline border-2 border-white uppercase px-2 py-1">
-            GitHub
+            Support
           </a>
         </div>
       </header>
@@ -151,7 +151,8 @@
             <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
               Kami berkomitmen menerjemahkan <span class="font-bold">seluruh delapan episode utama</span> Umineko,
               beserta konten tambahan seperti:
-              <span class="italic">Tea Party</span>, <span class="italic">Ura</span>, <span class="italic">Bonus</span>, <span class="italic">Tips</span>, <span class="italic">Trophies</span>, dan <span
+              <span class="italic">Tea Party</span>, <span class="italic">Ura</span>, <span class="italic">Bonus</span>,
+              <span class="italic">Tips</span>, <span class="italic">Trophies</span>, dan <span
                 class="italic">Grimoire</span>.
               Tujuan kami adalah memberikan pengalaman membaca yang utuh dan setara dengan versi Jepang maupun Inggris.
             </p>
@@ -194,139 +195,7 @@
               class="max-xl:text-4xl min-xl:text-5xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase underline text-shadow-lg text-shadow-black">
               Tim Penerjemah</h2>
 
-            <div class="gap-0 grid max-md:grid-cols-1 max-lg:grid-cols-2 min-lg:grid-cols-3">
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center"
-                href="https://www.facebook.com/andikaalakate"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative min-lg:col-start-2">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40 drop-shadow-2xl">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  (Team Leader)<br>Programmer & UI / UX Editor</h2>
-                <img src="/team/Andika_Alakate.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-cyan-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Andika Alakate</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center" href="https://www.facebook.com/frederizal"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative min-lg:col-start-1">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Main Translator 1</h2>
-                <img src="/team/Frederizal.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-red-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Frederizal</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center" href="https://www.facebook.com/masup.kun"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Main Translator 2</h2>
-                <img src="/team/Mamat_Supriyanto.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-blue-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Mamat Supriyanto</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center"
-                href="https://www.facebook.com/profile.php?id=100009413821602"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Main Translator 3</h2>
-                <img src="/team/Bagus.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-slate-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Bagus Setiawan</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center"
-                href="https://www.facebook.com/yoki.siagian.7"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Main Translator 4</h2>
-                <img src="/team/Lawliet.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-red-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Lawliet</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center"
-                href="https://www.facebook.com/angga.kun.12720"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Lyrics Editor<br>& Translator</h2>
-                <img src="/team/Angga.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-fuchsia-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Angga Kun</h3>
-              </a>
-              <a data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                data-aos-once="true" data-aos-anchor-placement="top-center"
-                href="https://www.facebook.com/profile.php?id=100088529629772"
-                class="aspect-square hover:border-slate-100 transition-all duration-500 cursor-pointer w-full bg-red-800 drop-shadow-2xl group border-2 border-gray-600 overflow-hidden relative">
-                <div
-                  class="absolute opacity-100 group-hover:opacity-20 flex transition-all duration-500 inset-0 z-2 bg-black/40">
-                </div>
-                <h2
-                  class="absolute flex justify-center items-center top-0 bottom-0 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-2 uppercase opacity-100 group-hover:opacity-0 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Translator</h2>
-                <img src="/team/Bil.webp"
-                  class="group-hover:scale-110 transition-all duration-500 object-cover w-full h-full" alt="">
-                <div
-                  class="bg-gradient-to-t from-slate-700/50 via-transparent to-transparent drop-shadow-2xl py-2 absolute inset-0 opacity-0 group-hover:opacity-100">
-                </div>
-                <h3
-                  class="absolute py-4 -bottom-5 left-0 right-0 max-xl:text-2xl min-xl:text-3xl text-center font-bold text-white mb-8 leading-[130%] z-1 uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 text-shadow-xs text-shadow-black">
-                  Bil</h3>
-              </a>
-            </div>
+            <TeamTerjemah />
           </div>
         </section>
 
@@ -385,7 +254,7 @@
           </div>
         </section>
 
-        <secttion data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+        <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
           class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
           <div class="grid grid-cols-3 w-full h-full gap-3">
@@ -398,7 +267,7 @@
             <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500 col-span-3"
               href="https://facebook.com/larusumindo">Halaman Facebook</a>
           </div>
-        </secttion>
+        </section>
       </section>
     </main>
   </div>
@@ -408,6 +277,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import ProgressList from '@components/ProgressList.vue'
 import Glosarium from '@components/Glosarium.vue'
+import TeamTerjemah from '@components/TeamTerjemah.vue'
 
 const isPastSection = ref(false)
 const heroSection = ref(null)
