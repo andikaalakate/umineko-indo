@@ -76,16 +76,16 @@ const glosarium = [
             {
                 nama: "Penyihir",
                 items: [
-                    { asli: "Golden Witch", terjemahan: "Penyihir Emas" },
                     { asli: "The Endless Witch", terjemahan: "Penyihir Tak Terbatas" },
+                    { asli: "The Golden Witch", terjemahan: "Penyihir Emas" },
+                    { asli: "The Witch of Certainty", terjemahan: "Penyihir Kepastian" },
                     { asli: "The Witch of Fragment", terjemahan: "Penyihir Fragmen" },
-                    { asli: "Witch of Certainty", terjemahan: "Penyihir Kepastian" },
-                    { asli: "Witch of Miracle", terjemahan: "Penyihir Keajaiban" },
-                    { asli: "Witch of Origins", terjemahan: "Penyihir Awal Mula" },
-                    { asli: "Witch of Resurrection", terjemahan: "Penyihir Kebangkitan" },
-                    { asli: "Witch of Senate", terjemahan: "Petinggi Penyihir" },
-                    { asli: "Witch of Theatergoing, Drama and Spectating", terjemahan: "Penyihir Teater, Drama dan Penonton" },
-                    { asli: "Witch of Truth", terjemahan: "Penyihir Kebenaran" }
+                    { asli: "The Witch of Miracle", terjemahan: "Penyihir Keajaiban" },
+                    { asli: "The Witch of Origins", terjemahan: "Penyihir Awal Mula" },
+                    { asli: "The Witch of Resurrection", terjemahan: "Penyihir Kebangkitan" },
+                    { asli: "The Witch of Senate", terjemahan: "Petinggi Penyihir" },
+                    { asli: "The Witch of Theatergoing, Drama and Spectating", terjemahan: "Penyihir Teater, Drama dan Penonton" },
+                    { asli: "The Witch of Truth", terjemahan: "Penyihir Kebenaran" }
                 ]
             },
             {
@@ -111,7 +111,7 @@ const glosarium = [
             {
                 nama: "Konsep Metafisik",
                 items: [
-                    { asli: "Creator", terjemahan: "Sang Pencipta" },
+                    { asli: "The Creator", terjemahan: "Sang Pencipta" },
                     { asli: "Fickles", terjemahan: "Misterius/Tak tertebak/Tak menentu" },
                     { asli: "God", terjemahan: "Dewa" }
                 ]
