@@ -1,50 +1,187 @@
 <template>
     <table v-if="glosarium?.length"
-        class="table-auto w-full border-2 border-slate-200 text-white text-center bg-cyan-900/20 drop-shadow-2xl">
-        <thead class=" border-2 border-slate-200">
-            <tr class="">
-                <th class="p-2 bg-red-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-md text-shadow-black text-xl max-md:text-lg">Asli</th>
-                <th class="p-2 bg-red-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-md text-shadow-black text-xl max-md:text-lg">Terjemahan</th>
-            </tr>
-        </thead>
+        class="table-auto w-full border-2 border-slate-200 text-white text-center bg-cyan-900/40 drop-shadow-2xl">
         <tbody>
-            <tr v-for="(gl, index) in glosarium" :key="index" class="font-semibold">
-                <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ gl.asli }}</td>
-                <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ gl.terjemahan }}</td>
-            </tr>
+            <template v-for="(group, gIndex) in glosarium" :key="gIndex">
+                <!-- Header kategori -->
+                <tr>
+                    <th colspan="2"
+                        class="p-2 bg-red-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-sm text-shadow-black uppercase text-xl max-md:text-lg">
+                        {{ group.kategori }}
+                    </th>
+                </tr>
+
+                <!-- Kalau ada subkategori -->
+                <template v-if="group.subkategori">
+                    <template v-for="(sub, sIndex) in group.subkategori" :key="sIndex">
+                        <!-- Header subkategori -->
+                        <tr>
+                            <th colspan="2"
+                                class="p-2 bg-yellow-600/40 drop-shadow-md border-2 border-slate-200 text-shadow-sm text-shadow-black uppercase text-lg max-md:text-base">
+                                {{ sub.nama }}
+                            </th>
+                        </tr>
+                        <tr>
+                            <th
+                                class="p-2 bg-blue-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-sm text-shadow-black text-base max-md:text-sm">
+                                Asli</th>
+                            <th
+                                class="p-2 bg-blue-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-sm text-shadow-black text-base max-md:text-sm">
+                                Terjemahan</th>
+                        </tr>
+                        <!-- Isi subkategori -->
+                        <tr v-for="(item, iIndex) in sub.items" :key="iIndex" class="font-semibold">
+                            <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ item.asli }}</td>
+                            <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ item.terjemahan }}
+                            </td>
+                        </tr>
+                    </template>
+                </template>
+
+                <!-- Kalau langsung ada items tanpa subkategori (contoh: SFX) -->
+                <template v-else>
+                    <tr>
+                        <th
+                            class="p-2 bg-blue-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-sm text-shadow-black text-base max-md:text-sm">
+                            Asli</th>
+                        <th
+                            class="p-2 bg-blue-900/50 drop-shadow-lg border-2 border-slate-200 text-shadow-sm text-shadow-black text-base max-md:text-sm">
+                            Terjemahan</th>
+                    </tr>
+                    <tr v-for="(item, iIndex) in group.items" :key="iIndex" class="font-semibold">
+                        <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ item.asli }}</td>
+                        <td class="p-2 border-2 border-slate-200 text-lg max-md:text-base">{{ item.terjemahan }}</td>
+                    </tr>
+                </template>
+            </template>
         </tbody>
     </table>
-</template>
+</template>  
 
 <script setup>
 const glosarium = [
     {
-        asli: 'Grimoire',
-        terjemahan: 'Dipertahankan (Istilah Asli)',
+        kategori: "Panggilan",
+        subkategori: [
+            {
+                nama: "Keluarga Ushiromiya",
+                items: [
+                    { asli: "Kinzo", terjemahan: "Grandmaster" },
+                    { asli: "Krauss", terjemahan: "Master" },
+                    { asli: "Madam (Natsuhi)", terjemahan: "Nyonya" },
+                    { asli: "Milady (Jessica)", terjemahan: "Nona (Dibawah Natsuhi)" },
+                    { asli: "Dibawah Krauss", terjemahan: "Tuan / Nyonya / -sama" }
+                ]
+            },
+            {
+                nama: "Penyihir",
+                items: [
+                    { asli: "Golden Witch", terjemahan: "Penyihir Emas" },
+                    { asli: "The Endless Witch", terjemahan: "Penyihir Tak Terbatas" },
+                    { asli: "The Witch of Fragment", terjemahan: "Penyihir Fragmen" },
+                    { asli: "Witch of Certainty", terjemahan: "Penyihir Kepastian" },
+                    { asli: "Witch of Miracle", terjemahan: "Penyihir Keajaiban" },
+                    { asli: "Witch of Origins", terjemahan: "Penyihir Awal Mula" },
+                    { asli: "Witch of Resurrection", terjemahan: "Penyihir Kebangkitan" },
+                    { asli: "Witch of Senate", terjemahan: "Petinggi Penyihir" },
+                    { asli: "Witch of Theatergoing, Drama and Spectating", terjemahan: "Penyihir Teater, Drama dan Penonton" },
+                    { asli: "Witch of Truth", terjemahan: "Penyihir Kebenaran" }
+                ]
+            },
+            {
+                nama: "Gelar & Status",
+                items: [
+                    { asli: "Bernkastel & Lambda", terjemahan: "Lady" },
+                    { asli: "Furniture", terjemahan: "Furnitur" },
+                    { asli: "Inquisitors", terjemahan: "Pengadil" },
+                    { asli: "King of Mount Purgatory", terjemahan: "Penguasa Api Penyucian" },
+                    { asli: "Miko", terjemahan: "Dipertahankan (Status)" },
+                    { asli: "Piece", terjemahan: "Bidak" },
+                    { asli: "Princess", terjemahan: "Tuan Putri" },
+                    { asli: "Voyager", terjemahan: "Pengelana" }
+                ]
+            },
+            {
+                nama: "Pasukan / Kelompok",
+                items: [
+                    { asli: "Chiester Sisters Imperial Guard Corps", terjemahan: "Pasukan Pengawal Saudari Chiester" },
+                    { asli: "Seven Sisters of Purgatory", terjemahan: "Tujuh Saudari Api Penyucian" }
+                ]
+            },
+            {
+                nama: "Konsep Metafisik",
+                items: [
+                    { asli: "Creator", terjemahan: "Sang Pencipta" },
+                    { asli: "Fickles", terjemahan: "Misterius/Tak tertebak/Tak menentu" },
+                    { asli: "God", terjemahan: "Dewa" }
+                ]
+            }
+        ]
     },
     {
-        asli: 'Golden Witch',
-        terjemahan: 'Penyihir Emas'
+        kategori: "Other Glosarium",
+        subkategori: [
+            {
+                nama: "Dunia Permainan",
+                items: [
+                    { asli: "Anti Magic Toxin", terjemahan: "Anti Sihir" },
+                    { asli: "Catbox", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Game Board", terjemahan: "Papan Permainan" },
+                    { asli: "Game Master", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Logic Error", terjemahan: "Dipertahankan (Istilah Asli)" }
+                ]
+            },
+            {
+                nama: "Truths",
+                items: [
+                    { asli: "Blue Truth", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Golden Truth", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Purple Truth", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Red Truth", terjemahan: "Dipertahankan (Istilah Asli)" }
+                ]
+            },
+            {
+                nama: "Lokasi / Tempat",
+                items: [
+                    { asli: "Cathedral", terjemahan: "Katedral" },
+                    { asli: "Church", terjemahan: "Gereja" },
+                    { asli: "City of Book", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Golden Land", terjemahan: "Taman Emas" },
+                    { asli: "Sea of Fragment", terjemahan: "Lautan Fragmen" },
+                    { asli: "St. Lucia Academy", terjemahan: "Akademi St. Lucia" },
+                    { asli: "The Depth of Oblivion", terjemahan: "Kedalaman Oblivion" }
+                ]
+            },
+            {
+                nama: "Objek / Item",
+                items: [
+                    { asli: "Epitaph", terjemahan: "Epitaf" },
+                    { asli: "Grimoire", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Plane", terjemahan: "Tingkatan" },
+                    { asli: "The Seven Stakes of Purgatory", terjemahan: "Tujuh Tombak Api Penyucian" }
+                ]
+            },
+            {
+                nama: "Aturan & Event",
+                items: [
+                    { asli: "Devil Proof", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Tea Party", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Van Dine's Commandments", terjemahan: "Aturan Mutlak Van Dine / Peraturan Van Dine" }
+                ]
+            }
+        ]
     },
     {
-        asli: 'Golden Land',
-        terjemahan: 'Pulau Emas'
-    },
-    {
-        asli: 'Red & Blue Truth',
-        terjemahan: 'Dipertahankan (Istilah Asli)'
-    },
-    {
-        asli: 'Furniture (Kagu)',
-        terjemahan: 'Furnitur'
-    },
-    {
-        asli: 'Epitaph',
-        terjemahan: 'Epitaf'
-    },
-    {
-        asli: 'Tea Party',
-        terjemahan: 'Dipertahankan (Istilah Asli)'
-    },
+        kategori: "SFX",
+        items: [
+            { asli: "Cackle", terjemahan: "Terkekeh" },
+            { asli: "Clunk", terjemahan: "Krek" },
+            { asli: "Cough", terjemahan: "Uhuk Uhuk" },
+            { asli: "Giggle", terjemahan: "Cekikikan" },
+            { asli: "Gulp", terjemahan: "Meneguk" },
+            { asli: "Hic", terjemahan: "Terisak-isak" },
+            { asli: "Sigh", terjemahan: "Cih / Tch / Haaaa" }
+        ]
+    }
 ];
 </script>

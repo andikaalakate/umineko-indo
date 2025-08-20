@@ -73,10 +73,10 @@ const teams = [
         gradient: 'from-red-700/50'
     },
     {
-        nama: 'Grey',
+        nama: 'Bil',
         role: 'Main Translator 6',
-        pic: '/team/Grey.webp',
-        link: 'https://web.facebook.com/Grey004',
+        pic: '/team/Bil.webp',
+        link: 'https://www.facebook.com/profile.php?id=100088529629772',
         gradient: 'from-slate-700/50'
     },
     {
@@ -87,10 +87,10 @@ const teams = [
         gradient: 'from-fuchsia-700/50'
     },
     {
-        nama: 'Bil',
+        nama: 'Grey',
         role: 'Translator',
-        pic: '/team/Bil.webp',
-        link: 'https://www.facebook.com/profile.php?id=100088529629772',
+        pic: '/team/Grey.webp',
+        link: 'https://web.facebook.com/Grey004',
         gradient: 'from-slate-700/50'
     },
 ];
