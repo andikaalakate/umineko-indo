@@ -66,10 +66,10 @@ const glosarium = [
             {
                 nama: "Keluarga Ushiromiya",
                 items: [
-                    { asli: "Kinzo", terjemahan: "Grandmaster" },
-                    { asli: "Krauss", terjemahan: "Master" },
-                    { asli: "Madam (Natsuhi)", terjemahan: "Nyonya" },
-                    { asli: "Milady (Jessica)", terjemahan: "Nona (Dibawah Natsuhi)" },
+                    { asli: "Oyakata-sama (Kinzo)", terjemahan: "Grandmaster" },
+                    { asli: "Danna-sama (Krauss)", terjemahan: "Master" },
+                    { asli: "Oku-sama/Madam (Natsuhi)", terjemahan: "Nyonya" },
+                    { asli: "Ojou-sama/Milady (Jessica)", terjemahan: "Nona" },
                     { asli: "Dibawah Krauss", terjemahan: "Tuan / Nyonya / -sama" }
                 ]
             },
@@ -83,9 +83,9 @@ const glosarium = [
                     { asli: "The Witch of Miracle", terjemahan: "Penyihir Keajaiban" },
                     { asli: "The Witch of Origins", terjemahan: "Penyihir Awal Mula" },
                     { asli: "The Witch of Resurrection", terjemahan: "Penyihir Kebangkitan" },
-                    { asli: "The Witch of Senate", terjemahan: "Petinggi Penyihir" },
                     { asli: "The Witch of Theatergoing, Drama and Spectating", terjemahan: "Penyihir Teater, Drama dan Penonton" },
-                    { asli: "The Witch of Truth", terjemahan: "Penyihir Kebenaran" }
+                    { asli: "The Witch of Truth", terjemahan: "Penyihir Kebenaran" },
+                    { asli: "Witch of Senate", terjemahan: "Petinggi Penyihir" },
                 ]
             },
             {
@@ -146,10 +146,10 @@ const glosarium = [
                     { asli: "Cathedral", terjemahan: "Katedral" },
                     { asli: "Church", terjemahan: "Gereja" },
                     { asli: "City of Book", terjemahan: "Dipertahankan (Istilah Asli)" },
-                    { asli: "Golden Land", terjemahan: "Taman Emas" },
                     { asli: "Sea of Fragment", terjemahan: "Lautan Fragmen" },
                     { asli: "St. Lucia Academy", terjemahan: "Akademi St. Lucia" },
-                    { asli: "The Depth of Oblivion", terjemahan: "Kedalaman Oblivion" }
+                    { asli: "The Depth of Oblivion", terjemahan: "Kedalaman Oblivion" },
+                    { asli: "The Golden Land", terjemahan: "Taman Emas" },
                 ]
             },
             {
