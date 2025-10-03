@@ -111,47 +111,53 @@ const ep1Chapters = [
         name: 'Chapter 11',
         status: 'done',
         translator: 'Frederizal',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-08-14',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 12',
         status: 'done',
         translator: 'Frederizal',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-08-31',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 13',
         status: 'done',
         translator: 'Frederizal',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-09-06',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 14',
         status: 'done',
         translator: 'Frederizal',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-09-14',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 15',
+        status: 'done',
+        translator: 'Frederizal',
+        updatedAt: '2025-10-03',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 16',
         status: 'proses',
         translator: 'Frederizal',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-10-03',
         note: 'Sudah QC'
     },
-    { name: 'Chapter 16' },
     {
-        name: 'Chapter 17 (Ending Scene)',
+        name: 'Ending Scene (Ch 17)',
         status: 'done',
         translator: 'Andika Alakate',
-        updatedAt: '2025-07-30',
+        updatedAt: '2025-08-13',
         note: 'Sudah QC'
     },
     {
-        name: 'Tea Party (Ch 19)',
+        name: 'Tea Party (Ch 18)',
         status: 'proses',
         translator: 'Mamat Supriyanto',
         updatedAt: '2025-08-13',
@@ -211,23 +217,23 @@ const ep2Chapters = [
     },
     {
         name: 'Chapter 3',
-        status: 'proses',
+        status: 'done',
         translator: 'Bagus Setiawan',
-        updatedAt: '2025-07-29',
+        updatedAt: '2025-09-01',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 4',
-        status: 'proses',
+        status: 'done',
         translator: 'Lawliet',
-        updatedAt: '2025-07-29',
+        updatedAt: '2025-08-22',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 5',
-        status: 'proses',
+        status: 'done',
         translator: 'Mamat Supriyanto',
-        updatedAt: '2025-08-09',
+        updatedAt: '2025-08-29',
         note: 'Sudah QC'
     },
     {
@@ -248,14 +254,14 @@ const ep2Chapters = [
         name: 'Chapter 8',
         status: 'done',
         translator: 'Lawliet',
-        updatedAt: '2025-08-12',
+        updatedAt: '2025-09-04',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 9',
         status: 'done',
         translator: 'Mamat Supriyanto',
-        updatedAt: '2025-08-12',
+        updatedAt: '2025-09-13',
         note: 'Sudah QC'
     },
     {
@@ -269,14 +275,14 @@ const ep2Chapters = [
         name: 'Chapter 11',
         status: 'done',
         translator: 'Lawliet',
-        updatedAt: '2025-08-12',
+        updatedAt: '2025-10-01',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 12',
         status: 'proses',
         translator: 'Lawliet',
-        updatedAt: '2025-08-12',
+        updatedAt: '2025-10-01',
         note: 'Sudah QC'
     },
     { name: 'Chapter 13' },

@@ -153,6 +153,7 @@ const glosarium = [
                     { asli: "Church", terjemahan: "Gereja" },
                     { asli: "City of Book", terjemahan: "Dipertahankan (Istilah Asli)" },
                     { asli: "Fukuin House", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Guest House", terjemahan: "Dipertahankan (Istilah Asli)" },
                     { asli: "Mansion", terjemahan: "Dipertahankan (Istilah Asli)" },
                     { asli: "Sea of Fragment", terjemahan: "Lautan Fragmen" },
                     { asli: "St. Lucia Academy", terjemahan: "Akademi St. Lucia" },
