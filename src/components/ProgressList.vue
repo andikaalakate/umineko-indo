@@ -114,10 +114,34 @@ const ep1Chapters = [
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
     },
-    { name: 'Chapter 12' },
-    { name: 'Chapter 13' },
-    { name: 'Chapter 14' },
-    { name: 'Chapter 15' },
+    {
+        name: 'Chapter 12',
+        status: 'proses',
+        translator: 'Frederizal',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 13',
+        status: 'proses',
+        translator: 'Frederizal',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 14',
+        status: 'proses',
+        translator: 'Frederizal',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 15',
+        status: 'proses',
+        translator: 'Frederizal',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
     { name: 'Chapter 16' },
     { name: 'Chapter 17' },
     { name: 'Tea Party (Ch 18)' },
@@ -208,11 +232,41 @@ const ep2Chapters = [
         updatedAt: '2025-08-12',
         note: 'Sudah QC'
     },
-    { name: 'Chapter 8' },
-    { name: 'Chapter 9' },
-    { name: 'Chapter 10' },
-    { name: 'Chapter 11' },
-    { name: 'Chapter 12' },
+    {
+        name: 'Chapter 8',
+        status: 'done',
+        translator: 'Lawliet',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 9',
+        status: 'done',
+        translator: 'Mamat Supriyanto',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 10',
+        status: 'proses',
+        translator: 'Bagus Setiawan',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 11',
+        status: 'done',
+        translator: 'Lawliet',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Chapter 12',
+        status: 'proses',
+        translator: 'Lawliet',
+        updatedAt: '2025-08-12',
+        note: 'Sudah QC'
+    },
     { name: 'Chapter 13' },
     { name: 'Chapter 14' },
     { name: 'Chapter 15' },

@@ -86,13 +86,6 @@ const teams = [
         link: 'https://www.facebook.com/angga.kun.12720',
         gradient: 'from-fuchsia-700/50'
     },
-    {
-        nama: 'Grey',
-        role: 'Translator',
-        pic: '/team/Grey.webp',
-        link: 'https://web.facebook.com/Grey004',
-        gradient: 'from-slate-700/50'
-    },
 ];
 </script>
   

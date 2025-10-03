@@ -83,9 +83,9 @@ const glosarium = [
                     { asli: "The Witch of Miracle", terjemahan: "Penyihir Keajaiban" },
                     { asli: "The Witch of Origins", terjemahan: "Penyihir Awal Mula" },
                     { asli: "The Witch of Resurrection", terjemahan: "Penyihir Kebangkitan" },
+                    { asli: "The Witch of Senate", terjemahan: "Petinggi Penyihir" },
                     { asli: "The Witch of Theatergoing, Drama and Spectating", terjemahan: "Penyihir Teater, Drama dan Penonton" },
                     { asli: "The Witch of Truth", terjemahan: "Penyihir Kebenaran" },
-                    { asli: "Witch of Senate", terjemahan: "Petinggi Penyihir" },
                 ]
             },
             {
@@ -93,6 +93,7 @@ const glosarium = [
                 items: [
                     { asli: "Bernkastel & Lambda", terjemahan: "Lady" },
                     { asli: "Furniture", terjemahan: "Furnitur" },
+                    { asli: "Great Witch / Dai Majo", terjemahan: "Penyihir Agung" },
                     { asli: "Inquisitors", terjemahan: "Pengadil" },
                     { asli: "King of Mount Purgatory", terjemahan: "Penguasa Api Penyucian" },
                     { asli: "Miko", terjemahan: "Dipertahankan (Status)" },
@@ -109,11 +110,16 @@ const glosarium = [
                 ]
             },
             {
-                nama: "Konsep Metafisik",
+                nama: "Konsep Metafiksi",
                 items: [
                     { asli: "The Creator", terjemahan: "Sang Pencipta" },
-                    { asli: "Fickles", terjemahan: "Misterius/Tak tertebak/Tak menentu" },
                     { asli: "God", terjemahan: "Dewa" }
+                ]
+            },
+            {
+                nama: "Other",
+                items: [
+                    { asli: "Fickles / Whims", terjemahan: "Misterius/Tak tertebak/Tak menentu/Jahil/Iseng (Sesuai konteks)" },
                 ]
             }
         ]
@@ -146,10 +152,13 @@ const glosarium = [
                     { asli: "Cathedral", terjemahan: "Katedral" },
                     { asli: "Church", terjemahan: "Gereja" },
                     { asli: "City of Book", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Fukuin House", terjemahan: "Dipertahankan (Istilah Asli)" },
+                    { asli: "Mansion", terjemahan: "Dipertahankan (Istilah Asli)" },
                     { asli: "Sea of Fragment", terjemahan: "Lautan Fragmen" },
                     { asli: "St. Lucia Academy", terjemahan: "Akademi St. Lucia" },
                     { asli: "The Depth of Oblivion", terjemahan: "Kedalaman Oblivion" },
-                    { asli: "The Golden Land", terjemahan: "Taman Emas" },
+                    { asli: "The Golden Land", terjemahan: "Tanah Emas" },
+                    { asli: "The Land of Death", terjemahan: "Tanah Kematian" },
                 ]
             },
             {
@@ -168,7 +177,18 @@ const glosarium = [
                     { asli: "Tea Party", terjemahan: "Dipertahankan (Istilah Asli)" },
                     { asli: "Van Dine's Commandments", terjemahan: "Aturan Mutlak Van Dine / Peraturan Van Dine" }
                 ]
-            }
+            },
+            {
+                nama: "Other",
+                items: [
+                    { asli: "Conference", terjemahan: "Konferensi" },
+                    { asli: "Fate", terjemahan: "Takdir" },
+                    { asli: "Pulpy", terjemahan: "Berair" },
+                    { asli: "Sloppy", terjemahan: "Basah" },
+                    { asli: "Sticky", terjemahan: "Lengket" },
+                    { asli: "Sweet", terjemahan: "Permen" },
+                ]
+            },
         ]
     },
     {

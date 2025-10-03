@@ -1,6 +1,7 @@
 <template>
   <div class="text-white font-sans">
     <main class="mx-auto bg-gray-900">
+      <!-- Hero -->
       <section ref="heroSection" id="hero" class="relative top-0 w-full h-[calc(100vh-4rem)] bg-cover bg-top bg-fixed"
         style="background-image: url('ep607.webp');">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
@@ -32,7 +33,9 @@
         </div>
       </header>
 
+      <!-- Isi -->
       <section class="mx-auto">
+        <!-- Sinopsis -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
@@ -84,6 +87,7 @@
           </div>
         </section>
 
+        <!-- Opening -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/red_b.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
@@ -101,6 +105,7 @@
           </vue-plyr>
         </section>
 
+        <!-- Progress -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="flex flex-col gap-5 bg-[url(/blue_b.webp)] bg-no-repeat relative bg-cover bg-center p-4 border-4 border-black hover:border-slate-200 transition-all duration-500">
@@ -113,6 +118,7 @@
           </div>
         </section>
 
+        <!-- Tentang -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
@@ -186,6 +192,7 @@
           </div>
         </section>
 
+        <!-- Team -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
@@ -199,6 +206,7 @@
           </div>
         </section>
 
+        <!-- Glosarium -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/book1.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative gloss">
@@ -212,6 +220,7 @@
           </div>
         </section>
 
+        <!-- Unduhan -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-150 w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/cha_i1ar.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
@@ -229,6 +238,7 @@
           </div>
         </section>
 
+        <!-- Kontribusi -->
         <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/beach_l2a.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
@@ -254,6 +264,7 @@
           </div>
         </section>
 
+        <!-- Link -->
         <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
           class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
