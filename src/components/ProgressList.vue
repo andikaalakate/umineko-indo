@@ -109,28 +109,28 @@ const ep1Chapters = [
     },
     {
         name: 'Chapter 11',
-        status: 'proses',
+        status: 'done',
         translator: 'Frederizal',
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 12',
-        status: 'proses',
+        status: 'done',
         translator: 'Frederizal',
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 13',
-        status: 'proses',
+        status: 'done',
         translator: 'Frederizal',
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
     },
     {
         name: 'Chapter 14',
-        status: 'proses',
+        status: 'done',
         translator: 'Frederizal',
         updatedAt: '2025-07-30',
         note: 'Sudah QC'
@@ -143,8 +143,20 @@ const ep1Chapters = [
         note: 'Sudah QC'
     },
     { name: 'Chapter 16' },
-    { name: 'Chapter 17' },
-    { name: 'Tea Party (Ch 18)' },
+    {
+        name: 'Chapter 17 (Ending Scene)',
+        status: 'done',
+        translator: 'Andika Alakate',
+        updatedAt: '2025-07-30',
+        note: 'Sudah QC'
+    },
+    {
+        name: 'Tea Party (Ch 19)',
+        status: 'proses',
+        translator: 'Mamat Supriyanto',
+        updatedAt: '2025-08-13',
+        note: 'Sudah QC'
+    },
     {
         name: 'Ura (Ch 19)',
         status: 'done',
