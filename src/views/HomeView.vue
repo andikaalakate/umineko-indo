@@ -132,7 +132,7 @@
               Tentang
             </h2>
             <div
-              class="min-lg:my-4 mb-2 w-full h-full transition-all duration-500 hover:border-slate-100 cursor-pointer bg-gray-800/60 border-2 border-gray-600 overflow-hidden">
+              class="min-lg:my-4 mb-2 w-full h-full transition-all duration-500 hover:border-slate-100 bg-gray-800/60 border-2 border-gray-600 overflow-hidden">
               <img src="/team/Banner.webp" alt=""
                 class="object-cover hover:scale-110 transition-all duration-500 w-full h-full">
             </div>
