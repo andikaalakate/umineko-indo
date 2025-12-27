@@ -2,17 +2,21 @@
   <div class="text-white font-sans">
     <main class="mx-auto bg-gray-900">
       <!-- Hero -->
-      <section ref="heroSection" id="hero" class="relative top-0 w-full h-[calc(100dvh-4rem)] bg-cover bg-top bg-fixed"
-        style="background-image: url('https://cdn.bandom.site/umineko/public/ep607.webp');">
+      <section ref="heroSection" id="hero" class="relative w-full h-[calc(100dvh-4rem)] overflow-hidden">
+        <!-- Parallax Background -->
+        <div ref="parallaxBg" class="absolute inset-0 bg-cover bg-top scale-110 will-change-transform"
+          style="background-image: url('https://cdn.bandom.site/umineko/public/ep607.webp');"></div>
+
+        <!-- Overlay -->
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
+        <!-- Content -->
         <div class="relative z-10 text-center flex flex-col justify-end h-full px-4 pb-16">
           <h2 class="max-lg:text-3xl min-lg:text-4xl font-bold text-white mb-4">
             Umineko Project<br>Terjemahan Bahasa Indonesia
           </h2>
           <p class="text-gray-300">
-            Proyek ini kami mulai dengan cinta dan harapan! Prioritas kami adalah
-            kualitas,
+            Proyek ini kami mulai dengan cinta dan harapan! Prioritas kami adalah kualitas,
             bukan kecepatan.
           </p>
         </div>
@@ -285,7 +289,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted, onBeforeUnmount, onUnmounted } from 'vue'
 import ProgressList from '@components/ProgressList.vue'
 import Glosarium from '@components/Glosarium.vue'
 import TeamTerjemah from '@components/TeamTerjemah.vue'
@@ -298,6 +302,25 @@ const checkScroll = () => {
   const sectionHeight = heroSection.value?.offsetHeight || 0
   isPastSection.value = scrollY > sectionHeight - 24
 }
+
+const parallaxBg = ref(null)
+
+const handleScroll = () => {
+  if (!heroSection.value || !parallaxBg.value) return
+
+  const rect = heroSection.value.getBoundingClientRect()
+  const scrollProgress = -rect.top * 0.3
+
+  parallaxBg.value.style.transform = `translateY(${scrollProgress}px) scale(1.1)`
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 
 onMounted(() => {
   window.addEventListener('scroll', checkScroll)
