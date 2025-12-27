@@ -3,26 +3,26 @@
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center"
             class="min-md:col-span-2 w-full h-full transition-all duration-500 hover:border-slate-100 bg-gray-800/60 border-2 border-gray-600">
-            <img src="/poster.webp" alt="" class="object-cover w-full h-full">
+            <img src="https://cdn.bandom.site/umineko/public/poster.webp" alt="" class="object-cover w-full h-full">
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center"
             class="py-4 min-md:col-span-2 w-full h-full transition-all duration-500 hover:border-slate-100 bg-gray-800/60 border-2 border-gray-600">
-            <img src="/title1_logo.webp" alt="" class="object-cover w-full h-full">
+            <img src="https://cdn.bandom.site/umineko/public/title1_logo.webp" alt="" class="object-cover w-full h-full">
         </div>
-        <EpisodeProgress pic="/episode/c0101_a.webp" title="Episode 1" :chapters="ep1Chapters" />
-        <EpisodeProgress pic="/episode/c0202_a.webp" title="Episode 2" :chapters="ep2Chapters" />
-        <EpisodeProgress pic="/episode/c0301.webp" title="Episode 3" :chapters="ep3Chapters" />
-        <EpisodeProgress pic="/episode/e0405.webp" title="Episode 4" :status="'belum'" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/c0101_a.webp" title="Episode 1" :chapters="ep1Chapters" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/c0202_a.webp" title="Episode 2" :chapters="ep2Chapters" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/c0301.webp" title="Episode 3" :chapters="ep3Chapters" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/e0405.webp" title="Episode 4" :status="'belum'" />
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center"
             class="py-4 min-md:col-span-2 w-full h-full transition-all duration-500 hover:border-slate-100 bg-gray-800/60 border-2 border-gray-600">
-            <img src="/title2_logo.webp" alt="" class="object-cover w-full h-full">
+            <img src="https://cdn.bandom.site/umineko/public/title2_logo.webp" alt="" class="object-cover w-full h-full">
         </div>
-        <EpisodeProgress pic="/episode/ep504.webp" title="Episode 5" :status="'belum'" />
-        <EpisodeProgress pic="/episode/ep606_3.webp" title="Episode 6" :status="'belum'" />
-        <EpisodeProgress pic="/episode/ep701.webp" title="Episode 7" :status="'belum'" />
-        <EpisodeProgress pic="/episode/ep818.webp" title="Episode 8" :status="'belum'" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/ep504.webp" title="Episode 5" :status="'belum'" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/ep606_3.webp" title="Episode 6" :status="'belum'" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/ep701.webp" title="Episode 7" :status="'belum'" />
+        <EpisodeProgress pic="https://cdn.bandom.site/umineko/public/episode/ep818.webp" title="Episode 8" :status="'belum'" />
     </div>
 </template>
 

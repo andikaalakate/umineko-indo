@@ -3,7 +3,7 @@
     <main class="mx-auto bg-gray-900">
       <!-- Hero -->
       <section ref="heroSection" id="hero" class="relative top-0 w-full h-[calc(100vh-4rem)] bg-cover bg-top bg-fixed"
-        style="background-image: url('ep607.webp');">
+        style="background-image: url('https://cdn.bandom.site/umineko/public/ep607.webp');">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
         <div class="relative z-10 text-center flex flex-col justify-end h-full px-4 pb-16">
@@ -39,7 +39,7 @@
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
-          <div class="absolute inset-0 bg-[url(/title1_logo.webp)] bg-contain bg-center bg-no-repeat z-0">
+          <div class="absolute inset-0 bg-[url(https://cdn.bandom.site/umineko/public/title1_logo.webp)] bg-contain bg-center bg-no-repeat z-0">
           </div>
           <div class="absolute inset-0 bg-black/60 z-1 drop-shadow-2xl"></div>
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
@@ -90,7 +90,7 @@
         <!-- Opening -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
-          class="h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/red_b.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
+          class="h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(https://cdn.bandom.site/umineko/public/red_b.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/40 z-0 drop-shadow-2xl"></div>
           <h2
             class="max-lg:text-4xl min-lg:text-5xl z-1 text-white font-bold uppercase underline text-shadow-lg text-shadow-black text-center pb-6">
@@ -108,7 +108,7 @@
         <!-- Progress -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
-          class="flex flex-col gap-5 bg-[url(/blue_b.webp)] bg-no-repeat relative bg-cover bg-center p-4 border-4 border-black hover:border-slate-200 transition-all duration-500">
+          class="flex flex-col gap-5 bg-[url(https://cdn.bandom.site/umineko/public/blue_b.webp)] bg-no-repeat relative bg-cover bg-center p-4 border-4 border-black hover:border-slate-200 transition-all duration-500">
           <div class="absolute inset-0 bg-black/40 z-0 drop-shadow-2xl"></div>
           <div class="mx-auto relative">
             <h2
@@ -122,7 +122,7 @@
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
           class="min-xl:min-h-screen h-fit flex flex-col justify-center items-center relative overflow-hidden border-4 border-black hover:border-slate-200 transition-all duration-500">
-          <div class="absolute inset-0 bg-[url(/team/Logo.webp)] bg-contain scale-110 bg-center bg-no-repeat z-0">
+          <div class="absolute inset-0 bg-[url(https://cdn.bandom.site/umineko/public/team/Logo.webp)] bg-contain scale-110 bg-center bg-no-repeat z-0">
           </div>
           <div class="absolute inset-0 bg-black/60 z-1 drop-shadow-2xl"></div>
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
@@ -133,7 +133,7 @@
             </h2>
             <div
               class="min-lg:my-4 mb-2 w-full h-full transition-all duration-500 hover:border-slate-100 bg-gray-800/60 border-2 border-gray-600 overflow-hidden">
-              <img src="/team/Banner.webp" alt=""
+              <img src="https://cdn.bandom.site/umineko/public/team/Banner.webp" alt=""
                 class="object-cover hover:scale-110 transition-all duration-500 w-full h-full">
             </div>
             <p class="max-md:text-xl max-lg:text-2xl min-lg:text-3xl z-1 indent-[5%] text-justify leading-[165%]">
@@ -195,7 +195,7 @@
         <!-- Team -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
-          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
+          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(https://cdn.bandom.site/umineko/public/ep803.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
           <div class="mx-auto relative">
             <h2
@@ -209,7 +209,7 @@
         <!-- Glosarium -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor-placement="top-center"
-          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/book1.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative gloss">
+          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(https://cdn.bandom.site/umineko/public/book1.webp)] bg-center bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative gloss">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center" class="mx-auto relative w-full max-w-7xl">
@@ -223,7 +223,7 @@
         <!-- Unduhan -->
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
-          class="min-xl:min-h-screen h-150 w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/cha_i1ar.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
+          class="min-xl:min-h-screen h-150 w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(https://cdn.bandom.site/umineko/public/cha_i1ar.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
             data-aos-once="true" data-aos-anchor-placement="top-center" class="mx-auto relative w-full max-w-7xl">
@@ -241,7 +241,7 @@
         <!-- Kontribusi -->
         <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
-          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(/beach_l2a.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
+          class="min-xl:min-h-screen h-fit w-full border-4 border-black flex flex-col justify-center mx-auto p-4 bg-[url(https://cdn.bandom.site/umineko/public/beach_l2a.webp)] bg-bottom bg-cover bg-no-repeat transition-all duration-500 hover:border-slate-200 relative">
           <div class="absolute inset-0 bg-black/20 z-0 drop-shadow-2xl"></div>
           <div class="mx-auto relative w-full max-w-7xl">
             <h2
@@ -250,15 +250,15 @@
             <div class="grid grid-cols-3 gap-6 justify-center items-center mx-auto max-w-md w-full h-full">
               <a href="mailto:andikaalakate@gmail.com"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  src="/boxicons/svg/brands/bx-gmail.svg"
+                  src="https://cdn.bandom.site/umineko/public/boxicons/svg/brands/bx-gmail.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://github/andikaalakate/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  src="/boxicons/svg/brands/bx-github.svg"
+                  src="https://cdn.bandom.site/umineko/public/boxicons/svg/brands/bx-github.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
               <a href="https://facebook.com/larusumindo/"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"><img
-                  src="/boxicons/svg/brands/bx-facebook.svg"
+                  src="https://cdn.bandom.site/umineko/public/boxicons/svg/brands/bx-facebook.svg"
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"></a>
             </div>
           </div>
@@ -267,7 +267,7 @@
         <!-- Link -->
         <section data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
           data-aos-once="true" data-aos-anchor=".gloss" data-aos-anchor-placement="top-center"
-          class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
+          class="w-full p-4 flex flex-col justify-center items-center text-center bg-[url(https://cdn.bandom.site/umineko/public/footer.webp)] bg-right bg-cover bg-no-repeat border-4 border-black transition-all duration-500 hover:border-slate-200">
           <div class="grid grid-cols-3 w-full h-full gap-3">
             <a class="bg-black/75 border-2 border-white drop-shadow-2xl py-2 align-middle items-center flex justify-center font-bold uppercase hover:bg-white/90 hover:border-black hover:text-black transition-all duration-500"
               href="https://07th-expansion.net/umi_gensaku">Situs Resmi</a>
