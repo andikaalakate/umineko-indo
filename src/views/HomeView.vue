@@ -2,7 +2,7 @@
   <div class="text-white font-sans">
     <main class="mx-auto bg-gray-900">
       <!-- Hero -->
-      <section ref="heroSection" id="hero" class="relative top-0 w-full h-[calc(100vh-4rem)] bg-cover bg-top bg-fixed"
+      <section ref="heroSection" id="hero" class="relative top-0 w-full h-[calc(100dvh-4rem)] bg-cover bg-top bg-fixed"
         style="background-image: url('https://cdn.bandom.site/umineko/public/ep607.webp');">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
