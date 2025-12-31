@@ -31,7 +31,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
-import EpisodeProgress from './EpisodeProgress.vue'
 import Modal from './Modal.vue'
 
 const ep1Chapters = ref([])
