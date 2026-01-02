@@ -66,7 +66,7 @@ const getStatusIcon = (status) => {
         <h2
           class="text-2xl xl:text-3xl font-bold uppercase text-white text-shadow-sm text-shadow-black"
         >
-          {{ data.title }}
+          {{ data.title || data.nama }}
         </h2>
       </div>
     </div>
@@ -83,11 +83,11 @@ const getStatusIcon = (status) => {
       ></div>
       <transition name="fade-scale">
         <div
-          class="relative bg-gray-900/75 text-white max-w-7xl w-fit p-4 h-dvh md:h-auto md:max-h-[calc(100vh-4rem)] md:mx-4 rounded-none md:rounded-2xl border border-gray-700 backdrop-blur-xl shadow-2xl overflow-y-auto overscroll-contain touch-pan-y"
+          class="relative bg-gray-900/75 text-white max-w-7xl w-fit p-4 h-dvh md:h-auto md:max-h-[calc(100vh-4rem)] md:mx-4 rounded-none md:rounded-2xl border border-gray-700 backdrop-blur-xl shadow-2xl overflow-y-auto scrollbar-none overscroll-contain touch-pan-y"
         >
           <button
             @click="isOpen = false"
-            class="absolute top-4 right-4 text-xl font-bold text-gray-300 hover:text-white"
+            class="absolute top-4 right-4 text-xl cursor-pointer font-bold text-gray-300 hover:text-white"
           >
             ✕
           </button>
@@ -95,7 +95,7 @@ const getStatusIcon = (status) => {
           <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
             <div class="md:col-span-2 space-y-6">
               <h2 class="text-3xl font-extrabold uppercase tracking-wider">
-                {{ data.title || data.nama }}
+                {{ data.fullTitle || data.nama }}
               </h2>
               <div
                 class="relative rounded-xl border border-gray-700 aspect-video overflow-hidden"
@@ -153,7 +153,7 @@ const getStatusIcon = (status) => {
             </div>
 
             <div
-              class="md:col-span-3 md:pt-16 pr-1 space-y-6 xl:max-h-[calc(100vh-7rem)] overflow-y-auto"
+              class="md:col-span-3 md:pt-16 pr-1 space-y-6 xl:max-h-[calc(100vh-7rem)] overflow-y-auto scrollbar-none"
             >
               <!-- Statistik -->
               <section
@@ -198,7 +198,7 @@ const getStatusIcon = (status) => {
                   >
                 </div>
 
-                <div class="space-y-3 overflow-y-auto max-h-[45vh] pr-2">
+                <div class="space-y-3 overflow-y-auto scrollbar-none max-h-[45vh] pr-2">
                   <div
                     v-for="(ch, idx) in data.chapters"
                     :key="idx"

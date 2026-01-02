@@ -3,6 +3,7 @@
     {
       "id": "ep1",
       "title": "Episode 1",
+      "fullTitle": "Episode 1: Legenda Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0101_a.webp",
       "summary": "4 dan 5 Oktober 1986. Keluarga Ushiromiya berkumpul di pulau pribadi Rokkenjima untuk konferensi keluarga tahunan mereka. Agenda utama adalah perebutan harta warisan dari kepala keluarga yang sedang sakit, Kinzo. Namun, saat keluarga itu terjebak di pulau oleh sebuah topan, mereka menerima surat yang mengaku berasal dari penyihir yang dikabarkan menghuni pulau tersebut, Beatrice, dan peristiwa misterius pun mulai terjadi.",
       "progress": 80,
@@ -108,7 +109,7 @@
           "name": "Chapter 16",
           "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2025-10-03"
+          "updatedAt": "2025-10-11"
         },
         {
           "name": "Ending Scene (Ch 17)",
@@ -120,7 +121,7 @@
           "name": "Tea Party (Ch 18)",
           "status": "done",
           "translator": "Mamat Supriyanto",
-          "updatedAt": "2025-08-13"
+          "updatedAt": "2025-10-29"
         },
         {
           "name": "Ura (Ch 19)",
@@ -147,7 +148,7 @@
           "updatedAt": "2025-07-14"
         }
       ],
-      "teamNote": "Masih belum dicek ulang dan quality control.",
+      "teamNote": "Masih belum ditranslation check dan quality check.",
       "activity": [
         "Chapter 1 diperbarui",
         "QC Prolog selesai",
@@ -157,6 +158,7 @@
     {
       "id": "ep2",
       "title": "Episode 2",
+      "fullTitle": "Episode 2: Kembalinya Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0202_a.webp",
       "summary": "Setelah peristiwa Tea Party dalam Legenda Penyihir Emas, episode ini mengembangkan konfrontasi antara Battler dan Beatrice, yang masing-masing berusaha membuktikan bahwa posisi pihak lain mengenai keberadaan sihir salah. Konflik di antara mereka berlangsung di tingkat yang lebih tinggi, memungkinkan mereka mengawasi peristiwa di pulau, di mana pembunuhan terulang kembali dalam keadaan yang berbeda. Episode ini juga sangat menekankan hubungan antara Jessica dan Kanon, George dan Shannon, serta Maria dan Rosa.",
       "progress": 55,
@@ -224,9 +226,9 @@
         },
         {
           "name": "Chapter 10",
-          "status": "proses",
+          "status": "done",
           "translator": "Bagus Setiawan",
-          "updatedAt": "2025-08-12"
+          "updatedAt": "2025-12-28"
         },
         {
           "name": "Chapter 11",
@@ -238,35 +240,48 @@
           "name": "Chapter 12",
           "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2025-10-01"
+          "updatedAt": "2025-10-13"
         },
         {
           "name": "Chapter 13",
           "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2025-10-01"
+          "updatedAt": "2025-11-13"
         },
         {
           "name": "Chapter 14",
           "status": "proses",
           "translator": "Mamat Supriyanto",
-          "updatedAt": "2025-10-01"
+          "updatedAt": "2025-10-30"
         },
-        { "name": "Chapter 15" },
+        { "name": "Chapter 15",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2025-12-27"
+        },
         {
           "name": "Chapter 16",
           "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2025-10-01"
+          "updatedAt": "2025-11-25"
         },
         {
           "name": "Chapter 17",
           "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2025-10-01"
+          "updatedAt": "2025-11-26"
         },
-        { "name": "Chapter 18" },
-        { "name": "Tea Party (Ch 19)" },
+        {
+          "name": "Chapter 18",
+          "status": "done",
+          "translator": "Lawliet",
+          "updatedAt": "2025-12-31"
+        },
+        { "name": "Tea Party (Ch 19)",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2025-12-27"
+        },
         {
           "name": "Ura (Ch 20)",
           "status": "done",
@@ -302,6 +317,7 @@
     {
       "id": "ep3",
       "title": "Episode 3",
+      "fullTitle": "Episode 3: Perjamuan Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0301.webp",
       "summary": "Episode ini melanjutkan pertarungan antara Battler dan Beatrice, dengan peristiwa di pulau yang memberi perhatian khusus pada Eva Ushiromiya. Perdebatan Battler melawan sihir menjadi semakin rumit dengan munculnya penyihir dan iblis baru, dan saat orang dewasa Ushiromiya melakukan upaya serius untuk memecahkan epitaf, Battler mulai mempelajari lebih banyak tentang masa lalu Beatrice dan kondisi pulau tersebut.",
       "progress": 20,
@@ -311,7 +327,7 @@
           "name": "Prolog",
           "status": "done",
           "translator": "Bil",
-          "updatedAt": "2025-07-29"
+          "updatedAt": "2025-0-15"
         },
         {
           "name": "Chapter 1",
@@ -323,27 +339,31 @@
           "name": "Chapter 2",
           "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2025-08-12"
+          "updatedAt": "2025-11-06"
         },
         {
           "name": "Chapter 3",
           "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2025-08-12"
+          "updatedAt": "2025-11-19"
         },
         {
           "name": "Chapter 4",
           "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2025-08-12"
+          "updatedAt": "2025-12-16"
         },
         {
           "name": "Chapter 5",
           "status": "proses",
           "translator": "Frederizal",
-          "updatedAt": "2025-08-12"
+          "updatedAt": "2025-12-16"
         },
-        { "name": "Chapter 6" },
+        { "name": "Chapter 6",
+          "status": "proses",
+          "translator": "Bagus Setiawan",
+          "updatedAt": "2025-12-28"
+        },
         { "name": "Chapter 7" },
         { "name": "Chapter 8" },
         { "name": "Chapter 9" },
@@ -384,56 +404,60 @@
     {
       "id": "ep4",
       "title": "Episode 4",
+      "fullTitle": "Episode 4: Aliansi Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/e0405.webp",
-      "summary": "Episode 4 menyajikan puncak dari misteri yang telah terjalin, mengungkap kebenaran di balik ilusi dan teka-teki yang ada.",
+      "summary": "Episode ini memperkenalkan adik perempuan Battler, Ange, sebagai protagonis kedua, yang tidak hadir dalam konferensi keluarga Ushiromiya tahun 1986 dan kemudian diasuh oleh Eva, satu-satunya penyintas dari Rokkenjima Mass Murders Incident. Alur cerita berpindah antara papan permainan dan dunia luar, memperlihatkan kepada pembaca dampak insiden tersebut terhadap kehidupan Ange serta menggali hubungannya dengan Maria dan sihir melalui buku harian Maria.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
       "chapters": [],
-      "teamNote": "Beberapa istilah sengaja dipertahankan untuk menjaga nuansa dan makna asli cerita.",
+      "teamNote": null,
       "activity": []
     },
     {
       "id": "ep5",
       "title": "Episode 5",
+      "fullTitle": "Episode 5: Akhir dari Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/ep504.webp",
-      "summary": "Episode 5 menutup saga dengan resolusi yang memuaskan, mengikat semua benang cerita dan memberikan penutup yang layak bagi para karakter.",
+      "summary": "Lambdadelta mengambil alih sebagai Game Master setelah kekalahan Beatrice di akhir arc sebelumnya, sementara Bernkastel memegang kendali utama atas sisi manusia dalam permainan. Sementara itu, Battler berusaha memahami kebenaran di balik permainan Beato dan terlibat konflik dengan Erika Furudo, seorang karakter detektif ciptaan Bern yang mendekati pembunuhan di pulau dari sudut pandang “misteri”, berlawanan dengan sikap “anti-fantasi” Battler. Episode ini juga menyoroti Natsuhi, yang menerima panggilan telepon bernada ancaman dari “Pria dari 19 Tahun Lalu”.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
       "chapters": [],
-      "teamNote": "Beberapa istilah sengaja dipertahankan untuk menjaga nuansa dan makna asli cerita.",
+      "teamNote": null,
       "activity": []
     },
     {
       "id": "ep6",
       "title": "Episode 6",
+      "fullTitle": "Episode 6: Fajar Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/ep606_3.webp",
-      "summary": "Episode 6 menyajikan konten tambahan yang memperkaya pengalaman bermain, dengan cerita sampingan dan karakter baru yang menarik.",
+      "summary": "Setelah menjadi Game Master baru di akhir Episode Akhir dari Penyihir Emas, Battler mendapat tugas untuk menciptakan papan permainan miliknya sendiri sebagai cara untuk menunjukkan pemahamannya terhadap permainan Beatrice. Beatrice juga terlahir kembali, tetapi sosok barunya tidak memiliki ingatan Beatrice yang asli dan berkepribadian pemalu. Permainan Battler berfokus pada pasangan George dan Shannon, serta Jessica dan Kanon, yang mengikuti “Ujian Cinta” untuk menentukan hubungan mana yang akan bertahan. Beatrice ikut bergabung dalam ujian-ujian ini sebagai bagian dari pencariannya untuk menemukan jati diri masa lalunya, dan bertemu dengan versi lain dari Beato, sementara Erika mengambil peran dalam permainan Battler. Seiring dengan peristiwa tersebut, Ange membaca sebuah manuskrip karya pemalsu misterius Tohya Hachijo, penulis kisah-kisah permainan ketiga hingga keenam.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
       "chapters": [],
-      "teamNote": "Beberapa istilah sengaja dipertahankan untuk menjaga nuansa dan makna asli cerita.",
+      "teamNote": null,
       "activity": []
     },
     {
       "id": "ep7",
       "title": "Episode 7",
+      "fullTitle": "Episode 7: Requiem Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/ep701.webp",
-      "summary": "Episode 7 menghadirkan tantangan baru dan memperdalam misteri yang ada, menguji kemampuan logika dan deduksi pemain.",
-      "progress": 0,
+      "summary": "Episode ini menyajikan sebuah realitas alternatif di mana Battler tidak datang ke Rokkenjima, Penyihir Emas tidak pernah ada, dan seorang anak misterius bernama Lion ditetapkan sebagai penerus keluarga Ushiromiya. Detektif Willard H. Wright ditugaskan oleh Bernkastel untuk menyelidiki dunia yang aneh ini dan mengungkap kebenaran di balik Beatrice. Episode ini menggali pengalaman masa lalu sejumlah karakter, termasuk Kinzo dan sosok yang kelak menjadi Beatrice.",      "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
       "chapters": [],
-      "teamNote": "Beberapa istilah sengaja dipertahankan untuk menjaga nuansa dan makna asli cerita.",
+      "teamNote": null,
       "activity": []
     },
     {
       "id": "ep8",
       "title": "Episode 8",
+      "fullTitle": "Episode 8: Senja Penyihir Emas",
       "pic": "https://cdn.bandom.site/umineko/public/episode/ep818.webp",
-      "summary": "Episode 8 menyajikan klimaks dari keseluruhan cerita, mengungkap rahasia terbesar dan memberikan resolusi yang memuaskan bagi para pemain.",
+      "summary": "Episode terakhir berfokus pada Ange, yang dalam pencariannya untuk mengungkap kebenaran di balik Rokkenjima Mass Murders Incident diberi kesempatan oleh Battler untuk pergi ke Rokkenjima sebagai dirinya yang berusia enam tahun. Konflik utama berpusat pada pertarungan antara Battler dan Bernkastel dalam meyakinkan Ange akan sudut pandang masing-masing tentang bagaimana seharusnya dia mendekati kebenaran dan pencariannya terhadap hal tersebut.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
       "chapters": [],
-      "teamNote": "Beberapa istilah sengaja dipertahankan untuk menjaga nuansa dan makna asli cerita.",
+      "teamNote": null,
       "activity": []
     }
   ],
