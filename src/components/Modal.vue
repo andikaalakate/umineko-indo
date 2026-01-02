@@ -198,7 +198,7 @@ const getStatusIcon = (status) => {
                   >
                 </div>
 
-                <div class="space-y-3 overflow-y-auto scrollbar-none max-h-[45vh] pr-2">
+                <div v-if="data.chapters?.length > 0" class="space-y-3 overflow-y-auto scrollbar-none max-h-[45vh] pr-2">
                   <div
                     v-for="(ch, idx) in data.chapters"
                     :key="idx"
@@ -239,6 +239,9 @@ const getStatusIcon = (status) => {
                     </div>
                   </div>
                 </div>
+                <p v-else class="bg-gray-800/60 border border-gray-700 rounded-xl p-4 text-sm text-gray-300 italic">
+                  Tidak ada chapter yang tersedia.
+                </p>
 
                 <section class="mt-4">
                   <h4 class="text-lg font-bold uppercase mb-2">Catatan Tim</h4>
@@ -255,13 +258,13 @@ const getStatusIcon = (status) => {
                   </h4>
                   <ul
                     v-if="data.activity && data.activity.length > 0"
-                    class="text-sm text-gray-300 space-y-1"
+                    class="bg-gray-800/60 border border-gray-700 rounded-xl p-4 text-sm text-gray-300 italic space-y-1"
                   >
                     <li v-for="(act, idx) in data.activity" :key="idx">
                       • {{ act }}
                     </li>
                   </ul>
-                  <p v-else class="text-sm text-gray-400">
+                  <p v-else class="bg-gray-800/60 border border-gray-700 rounded-xl p-4 text-sm text-gray-300 italic">
                     Tidak ada aktivitas terbaru.
                   </p>
                 </section>
