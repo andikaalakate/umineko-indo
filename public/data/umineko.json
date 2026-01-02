@@ -7,7 +7,7 @@
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0101_a.webp",
       "summary": "4 dan 5 Oktober 1986. Keluarga Ushiromiya berkumpul di pulau pribadi Rokkenjima untuk konferensi keluarga tahunan mereka. Agenda utama adalah perebutan harta warisan dari kepala keluarga yang sedang sakit, Kinzo. Namun, saat keluarga itu terjebak di pulau oleh sebuah topan, mereka menerima surat yang mengaku berasal dari penyihir yang dikabarkan menghuni pulau tersebut, Beatrice, dan peristiwa misterius pun mulai terjadi.",
       "progress": 80,
-      "stats": { "total": 22, "done": 20, "proses": 1, "belum": 1 },
+      "stats": { "total": 22, "done": 22, "proses": 0, "belum": 0 },
       "chapters": [
         {
           "name": "Prolog",
@@ -162,7 +162,7 @@
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0202_a.webp",
       "summary": "Setelah peristiwa Tea Party dalam Legenda Penyihir Emas, episode ini mengembangkan konfrontasi antara Battler dan Beatrice, yang masing-masing berusaha membuktikan bahwa posisi pihak lain mengenai keberadaan sihir salah. Konflik di antara mereka berlangsung di tingkat yang lebih tinggi, memungkinkan mereka mengawasi peristiwa di pulau, di mana pembunuhan terulang kembali dalam keadaan yang berbeda. Episode ini juga sangat menekankan hubungan antara Jessica dan Kanon, George dan Shannon, serta Maria dan Rosa.",
       "progress": 55,
-      "stats": { "total": 20, "done": 15, "proses": 3, "belum": 2 },
+      "stats": { "total": 24, "done": 22, "proses": 2, "belum": 0 },
       "chapters": [
         {
           "name": "Prolog",
@@ -321,7 +321,7 @@
       "pic": "https://cdn.bandom.site/umineko/public/episode/c0301.webp",
       "summary": "Episode ini melanjutkan pertarungan antara Battler dan Beatrice, dengan peristiwa di pulau yang memberi perhatian khusus pada Eva Ushiromiya. Perdebatan Battler melawan sihir menjadi semakin rumit dengan munculnya penyihir dan iblis baru, dan saat orang dewasa Ushiromiya melakukan upaya serius untuk memecahkan epitaf, Battler mulai mempelajari lebih banyak tentang masa lalu Beatrice dan kondisi pulau tersebut.",
       "progress": 20,
-      "stats": { "total": 23, "done": 8, "proses": 1, "belum": 14 },
+      "stats": { "total": 24, "done": 5, "proses": 2, "belum": 17 },
       "chapters": [
         {
           "name": "Prolog",
@@ -378,7 +378,6 @@
         { "name": "Chapter 18" },
         { "name": "Tea Party (Ch 19)" },
         { "name": "Ura (Ch 20)" },
-
         {
           "name": "Bonus",
           "status": "done",
