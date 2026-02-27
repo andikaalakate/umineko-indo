@@ -5,12 +5,12 @@
          TOAST NOTIFICATION SYSTEM
          Ditampilkan di pojok kanan bawah, bisa muncul beberapa sekaligus
          ═══════════════════════════════════════════════════════════════ -->
-    <div class="fixed bottom-6 right-6 z-[100] flex flex-col gap-2 pointer-events-none">
+    <div class="fixed bottom-6 right-6 z-100 flex flex-col gap-2 pointer-events-none">
       <TransitionGroup name="toast">
         <div
           v-for="t in toasts"
           :key="t.id"
-          class="pointer-events-auto flex items-start gap-3 px-4 py-3 border-2 min-w-[280px] max-w-sm
+          class="pointer-events-auto flex items-start gap-3 px-4 py-3 border-2 min-w-70 max-w-sm
                  backdrop-blur-md shadow-2xl"
           :class="{
             'bg-green-950/90  border-green-600  text-green-200':  t.type === 'success',
