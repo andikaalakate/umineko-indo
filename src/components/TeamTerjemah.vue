@@ -31,7 +31,7 @@ const teams = [
     {
         nama: 'Andika Alakate',
         role: '(Team Leader)<br>Programmer & UI / UX Editor',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Andika_Alakate.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Andika_Alakate.webp',
         link: 'https://www.facebook.com/andikaalakate',
         gradient: 'from-cyan-700/50',
         startClass: 'min-lg:col-start-2'
@@ -39,7 +39,7 @@ const teams = [
     {
         nama: 'Frederizal',
         role: 'Main Translator 1',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Frederizal.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Frederizal.webp',
         link: 'https://www.facebook.com/frederizal',
         gradient: 'from-red-700/50',
         startClass: 'min-lg:col-start-1'
@@ -47,49 +47,49 @@ const teams = [
     {
         nama: 'Mamat Supriyanto',
         role: 'Main Translator 2',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Mamat_Supriyanto.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Mamat_Supriyanto.webp',
         link: 'https://www.facebook.com/masup.kun',
         gradient: 'from-blue-700/50'
     },
     {
         nama: 'Bagus Setiawan',
         role: 'Main Translator 3',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Bagus.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Bagus.webp',
         link: 'https://www.facebook.com/profile.php?id=100009413821602',
         gradient: 'from-slate-700/50'
     },
     {
         nama: 'Lawliet',
         role: 'Main Translator 4',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Lawliet.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Lawliet.webp',
         link: 'https://www.facebook.com/yoki.siagian.7',
         gradient: 'from-red-700/50'
     },
     {
         nama: 'Lilith TL',
         role: 'Main Translator 5',
-        pic: 'https://cdn.bandom.site/umineko/public/team/LilithTL.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/LilithTL.webp',
         link: 'https://www.tiktok.com/@azazelltrinity',
         gradient: 'from-red-700/50'
     },
     {
         nama: 'Bil',
         role: 'Main Translator 6',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Bil.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Bil.webp',
         link: 'https://www.facebook.com/profile.php?id=100088529629772',
         gradient: 'from-slate-700/50'
     },
     {
         nama: 'Se Rene',
         role: 'Main Translator 7',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Se_Rene.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Se_Rene.webp',
         link: 'https://www.facebook.com/se.rene.127736',
         gradient: 'from-slate-700/50'
     },
     {
         nama: 'Angga Kun',
         role: 'Lyrics Editor<br>& Translator',
-        pic: 'https://cdn.bandom.site/umineko/public/team/Angga.webp',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Angga.webp',
         link: 'https://www.facebook.com/angga.kun.12720',
         gradient: 'from-fuchsia-700/50'
     },

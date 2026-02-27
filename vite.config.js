@@ -24,6 +24,9 @@ export default defineConfig({
       ),
       "@views": fileURLToPath(new URL("./src/views", import.meta.url)),
       "@libs": fileURLToPath(new URL("./src/libs", import.meta.url)),
+      "@composables": fileURLToPath(
+        new URL("./src/composables", import.meta.url),
+      ),
     },
   },
 });
