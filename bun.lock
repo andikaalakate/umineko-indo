@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "umineko-indo",
@@ -345,7 +346,7 @@
 
     "picomatch": ["picomatch@4.0.3", "", {}, "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q=="],
 
-    "plyr": ["plyr@github:sampotts/plyr#d434c9a", { "dependencies": { "core-js": "^3.22.0", "custom-event-polyfill": "^1.0.7", "loadjs": "^4.2.0", "rangetouch": "^2.0.1", "url-polyfill": "^1.1.12" } }, "sampotts-plyr-d434c9a"],
+    "plyr": ["plyr@github:sampotts/plyr#d434c9a", { "dependencies": { "core-js": "^3.22.0", "custom-event-polyfill": "^1.0.7", "loadjs": "^4.2.0", "rangetouch": "^2.0.1", "url-polyfill": "^1.1.12" } }, "sampotts-plyr-d434c9a", "sha512-PIylNaPwPT4cpz69SWWcnpt1jbOQi9Ph/5adznAnn+WqlDBvRJJNxelmf3uJwU5KtCDtxjtlsH6Y+TRfks+Yjg=="],
 
     "postcss": ["postcss@8.5.6", "", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg=="],
 

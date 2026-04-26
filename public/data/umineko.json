@@ -161,8 +161,8 @@
       "fullTitle": "Episode 2: Kembalinya Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/c0202_a.webp",
       "summary": "Setelah peristiwa Tea Party dalam Legenda Penyihir Emas, episode ini mengembangkan konfrontasi antara Battler dan Beatrice, yang masing-masing berusaha membuktikan bahwa posisi pihak lain mengenai keberadaan sihir salah. Konflik di antara mereka berlangsung di tingkat yang lebih tinggi, memungkinkan mereka mengawasi peristiwa di pulau, di mana pembunuhan terulang kembali dalam keadaan yang berbeda. Episode ini juga sangat menekankan hubungan antara Jessica dan Kanon, George dan Shannon, serta Maria dan Rosa.",
-      "progress": 55,
-      "stats": { "total": 24, "done": 22, "proses": 2, "belum": 0 },
+      "progress": 83.3,
+      "stats": { "total": 24, "done": 23, "proses": 1, "belum": 0 },
       "chapters": [
         {
           "name": "Prolog",
@@ -250,14 +250,14 @@
         },
         {
           "name": "Chapter 14",
-          "status": "proses",
+          "status": "done",
           "translator": "Mamat Supriyanto",
-          "updatedAt": "2025-10-30"
+          "updatedAt": "2026-02-20"
         },
         { "name": "Chapter 15",
-          "status": "proses",
+          "status": "done",
           "translator": "Se Rene",
-          "updatedAt": "2025-12-27"
+          "updatedAt": "2026-01-18"
         },
         {
           "name": "Chapter 16",
@@ -278,9 +278,9 @@
           "updatedAt": "2025-12-31"
         },
         { "name": "Tea Party (Ch 19)",
-          "status": "proses",
+          "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2025-12-27"
+          "updatedAt": "2026-01-05"
         },
         {
           "name": "Ura (Ch 20)",
@@ -320,8 +320,8 @@
       "fullTitle": "Episode 3: Perjamuan Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/c0301.webp",
       "summary": "Episode ini melanjutkan pertarungan antara Battler dan Beatrice, dengan peristiwa di pulau yang memberi perhatian khusus pada Eva Ushiromiya. Perdebatan Battler melawan sihir menjadi semakin rumit dengan munculnya penyihir dan iblis baru, dan saat orang dewasa Ushiromiya melakukan upaya serius untuk memecahkan epitaf, Battler mulai mempelajari lebih banyak tentang masa lalu Beatrice dan kondisi pulau tersebut.",
-      "progress": 20,
-      "stats": { "total": 24, "done": 5, "proses": 2, "belum": 17 },
+      "progress": 62.5,
+      "stats": { "total": 24, "done": 15, "proses": 9, "belum": 0 },
       "chapters": [
         {
           "name": "Prolog",
@@ -355,29 +355,85 @@
         },
         {
           "name": "Chapter 5",
-          "status": "proses",
+          "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2025-12-16"
+          "updatedAt": "2026-01-17"
         },
         { "name": "Chapter 6",
           "status": "proses",
           "translator": "Bagus Setiawan",
           "updatedAt": "2025-12-28"
         },
-        { "name": "Chapter 7" },
-        { "name": "Chapter 8" },
-        { "name": "Chapter 9" },
-        { "name": "Chapter 10" },
-        { "name": "Chapter 11" },
-        { "name": "Chapter 12" },
-        { "name": "Chapter 13" },
-        { "name": "Chapter 14" },
-        { "name": "Chapter 15" },
-        { "name": "Chapter 16" },
-        { "name": "Chapter 17" },
-        { "name": "Chapter 18" },
-        { "name": "Tea Party (Ch 19)" },
-        { "name": "Ura (Ch 20)" },
+        { "name": "Chapter 7",
+          "status": "done",
+          "translator": "Frederizal",
+          "updatedAt": "2026-02-16"
+      },
+        { "name": "Chapter 8",
+          "status": "done",
+          "translator": "Frederizal",
+          "updatedAt": "2026-03-16"
+        },
+        { "name": "Chapter 9",
+          "status": "proses",
+          "translator": "Frederizal",
+          "updatedAt": "2026-03-16"
+        },
+        { "name": "Chapter 10",
+          "status": "proses",
+          "translator": "Frederizal",
+          "updatedAt": "2026-03-16"
+        },
+        { "name": "Chapter 11",
+          "status": "proses",
+          "translator": "Frederizal",
+          "updatedAt": "2026-03-16"
+        },
+        { "name": "Chapter 12",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2026-01-18"
+        },
+        { "name": "Chapter 13",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2026-01-18"
+        },
+        { "name": "Chapter 14",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2026-01-18"
+        },
+        { "name": "Chapter 15",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2026-01-18"
+        },
+        { "name": "Chapter 16",
+          "status": "proses",
+          "translator": "Se Rene",
+          "updatedAt": "2026-01-18"
+       },
+        { "name": "Chapter 17",
+          "status": "done",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-14"
+        },
+        { "name": "Chapter 18",
+          "status": "done",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-16"
+        },
+        { "name": "Tea Party (Ch 19)",
+          "status": "done",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-17"
+        },
+        { "name": "Ura (Ch 20)",
+          "status": "done",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
         {
           "name": "Bonus",
           "status": "done",
@@ -408,7 +464,158 @@
       "summary": "Episode ini memperkenalkan adik perempuan Battler, Ange, sebagai protagonis kedua, yang tidak hadir dalam konferensi keluarga Ushiromiya tahun 1986 dan kemudian diasuh oleh Eva, satu-satunya penyintas dari Rokkenjima Mass Murders Incident. Alur cerita berpindah antara papan permainan dan dunia luar, memperlihatkan kepada pembaca dampak insiden tersebut terhadap kehidupan Ange serta menggali hubungannya dengan Maria dan sihir melalui buku harian Maria.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
-      "chapters": [],
+      "chapters": [
+        {
+          "name": "Prolog",
+          "status": "done",
+          "translator": "Mamat Supriyanto",
+          "updatedAt": "2026-02-20"
+        },
+        {
+          "name": "Chapter 1",
+          "status": "done",
+          "translator": "Mamat Supriyanto",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 2",
+          "status": "proses",
+          "translator": "Mamat Supriyanto",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 3",
+          "status": "proses",
+          "translator": "Mamat Supriyanto",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 4",
+          "status": "proses",
+          "translator": "Mamat Supriyanto",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 5",
+          "status": "proses",
+          "translator": "HiazeAlter",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 6",
+          "status": "proses",
+          "translator": "HiazeAlter",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 7",
+          "status": "done",
+          "translator": "HiazeAlter",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 8",
+          "status": "done",
+          "translator": "HiazeAlter",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 9",
+          "status": "proses",
+          "translator": "HiazeAlter",
+          "updatedAt": "2026-03-04"
+        },
+        {
+          "name": "Chapter 10",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
+        {
+          "name": "Chapter 11",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
+        {
+          "name": "Chapter 12",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
+        {
+          "name": "Chapter 13",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
+        {
+          "name": "Chapter 14",
+          "status": "proses",
+          "translator": "Lawliet",
+          "updatedAt": "2026-03-21"
+        },
+        {
+          "name": "Chapter 15",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 16",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 17",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 18",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 19",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Tea Party (Ch 20)",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Ura (Chapter 21)",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Bonus",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2025-08-13"
+        },
+        {
+          "name": "Movie (Subtitle)",
+          "status": "done",
+          "translator": "Angga Kun",
+          "updatedAt": "2025-07-30"
+        },
+        {
+          "name": "UI / UX",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2025-07-30"
+        }
+      ],
       "teamNote": null,
       "activity": []
     },
@@ -420,7 +627,133 @@
       "summary": "Lambdadelta mengambil alih sebagai Game Master setelah kekalahan Beatrice di akhir arc sebelumnya, sementara Bernkastel memegang kendali utama atas sisi manusia dalam permainan. Sementara itu, Battler berusaha memahami kebenaran di balik permainan Beato dan terlibat konflik dengan Erika Furudo, seorang karakter detektif ciptaan Bern yang mendekati pembunuhan di pulau dari sudut pandang “misteri”, berlawanan dengan sikap “anti-fantasi” Battler. Episode ini juga menyoroti Natsuhi, yang menerima panggilan telepon bernada ancaman dari “Pria dari 19 Tahun Lalu”.",
       "progress": 0,
       "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
-      "chapters": [],
+      "chapters": [
+          {
+            "name": "Prolog",
+            "status": "done",
+            "translator": "Andika Alakate",
+            "updatedAt": "2025-12-31"
+          },
+          {
+            "name": "Chapter 1",
+            "status": "done",
+            "translator": "Andika Alakate",
+            "updatedAt": "2026-12-31"
+          },
+          {
+            "name": "Chapter 2",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 3",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 4",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 5",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 6",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 7",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 8",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 9",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 10",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+          },
+          {
+            "name": "Chapter 11",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+            },
+          {
+            "name": "Chapter 12",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+            "name": "Chapter 13",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+            "name": "Chapter 14",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+            "name": "Chapter 15",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+            "name": "Tea Party (Ch 16)",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+            "name": "Ura (Ch 17)",
+            "status": "belum",
+            "translator": "",
+            "updatedAt": ""
+           },
+          {
+              "name": "Bonus",
+              "status": "done",
+              "translator": "Andika Alakate",
+              "updatedAt": "2025-08-13"
+           },           {
+              "name": "Movie (Subtitle)",
+              "status": "done",
+              "translator": "Andika Alakate",
+              "updatedAt": "2025-08-13"
+           },
+           {
+              "name": "UI / UX",
+              "status": "done",
+              "translator": "Andika Alakate",
+              "updatedAt": "2025-08-13"
+           }
+      ],
       "teamNote": null,
       "activity": []
     },
@@ -543,6 +876,15 @@
       "link": "https://www.facebook.com/se.rene.127736",
       "gradient": "from-slate-700/50",
       "progress": 35,
+      "activity": []
+    },
+    {
+      "nama": "HiazeAlter",
+      "role": "Quality Checker 1",
+      "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/HiazeAlter.webp",
+      "link": "https://www.facebook.com/hiaze.alter",
+      "gradient": "from-gray-700/50",
+      "progress": 10,
       "activity": []
     },
     {
