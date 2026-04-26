@@ -87,6 +87,13 @@ const teams = [
         gradient: 'from-slate-700/50'
     },
     {
+        nama: 'HiazeAlter',
+        role: 'Main Translator 8',
+        pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/HiazeAlter.webp',
+        link: 'https://www.facebook.com/hiaze.alter',
+        gradient: 'from-gray-700/50'
+    },
+    {
         nama: 'Angga Kun',
         role: 'Lyrics Editor<br>& Translator',
         pic: 'https://cdn.kurokidaizaya.my.id/umineko/public/team/Angga.webp',
