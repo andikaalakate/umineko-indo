@@ -1,11 +1,11 @@
 import { ref } from 'vue'
-import { supabase } from '@/lib/supabase'
+import { supabase, isSupabaseConfigured } from '@/lib/supabase'
 
 /**
  * Composable untuk autentikasi admin menggunakan Supabase Auth.
  * 
  * Cara penggunaan:
- *   const { user, loading, signIn, signOut, initSession } = useAuth()
+ *   const { user, loading, signIn, signOut, initSession, isConfigured } = useAuth()
  */
 export function useAuth() {
   const user = ref(null)
@@ -18,6 +18,13 @@ export function useAuth() {
   async function signIn(email, password) {
     loading.value = true
     error.value = null
+
+    if (!isSupabaseConfigured) {
+      error.value = 'Database belum dikonfigurasi. Harap buat file .env dengan kredensial Supabase.'
+      loading.value = false
+      return false
+    }
+
     try {
       const { data, error: err } = await supabase.auth.signInWithPassword({
         email,
@@ -39,6 +46,13 @@ export function useAuth() {
   // ─────────────────────────────────────────────
   async function signOut() {
     loading.value = true
+
+    if (!isSupabaseConfigured) {
+      user.value = null
+      loading.value = false
+      return
+    }
+
     try {
       await supabase.auth.signOut()
       user.value = null
@@ -51,18 +65,28 @@ export function useAuth() {
 
   // ─────────────────────────────────────────────
   // Init Session: Cek apakah sudah ada sesi aktif (saat pertama buka halaman)
-  // Penting dipanggil di onMounted AdminView agar state tidak hilang saat refresh
   // ─────────────────────────────────────────────
   async function initSession() {
-    const { data } = await supabase.auth.getSession()
-    if (data?.session?.user) {
-      user.value = data.session.user
+    if (!isSupabaseConfigured) {
+      user.value = null
+      loading.value = false
+      return
     }
 
-    // Pantau perubahan auth state secara realtime
-    supabase.auth.onAuthStateChange((_event, session) => {
-      user.value = session?.user ?? null
-    })
+    try {
+      const { data } = await supabase.auth.getSession()
+      if (data?.session?.user) {
+        user.value = data.session.user
+      }
+
+      // Pantau perubahan auth state secara realtime
+      supabase.auth.onAuthStateChange((_event, session) => {
+        user.value = session?.user ?? null
+      })
+    } catch (err) {
+      console.warn('Gagal menginisialisasi sesi auth:', err)
+      user.value = null
+    }
   }
 
   return {
@@ -72,5 +96,6 @@ export function useAuth() {
     signIn,
     signOut,
     initSession,
+    isConfigured: isSupabaseConfigured
   }
 }

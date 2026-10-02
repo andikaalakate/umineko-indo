@@ -48,7 +48,11 @@
           </div>
 
           <Transition name="slide-down">
-            <div v-if="authError" class="bg-red-950 border border-red-700 text-red-300 text-sm px-4 py-3 mb-5 flex items-center gap-2">
+            <div v-if="!isConfigured" class="bg-yellow-950/90 border border-yellow-700 text-yellow-200 text-xs px-4 py-3 mb-5 flex items-start gap-2 leading-relaxed">
+              <span class="text-base leading-none">⚠</span>
+              <span><strong>Database Belum Dikonfigurasi:</strong> File <code>.env</code> belum dibuat. Silakan salin <code>.env.example</code> dan isi kredensial Supabase untuk mengaktifkan login admin.</span>
+            </div>
+            <div v-else-if="authError" class="bg-red-950 border border-red-700 text-red-300 text-sm px-4 py-3 mb-5 flex items-center gap-2">
               <span>⚠</span><span>{{ authError }}</span>
             </div>
           </Transition>
@@ -654,7 +658,7 @@ import { useBlog } from '@/composables/useBlog'
 // ════════════════════════════════════════════════════════
 const {
   user: authUser, loading: authLoading, error: authError,
-  signIn, signOut, initSession,
+  signIn, signOut, initSession, isConfigured,
 } = useAuth()
 const loginEmail    = ref('')
 const loginPassword = ref('')

@@ -1,5 +1,5 @@
 import { ref, computed } from 'vue'
-import { supabase } from '@/lib/supabase'
+import { supabase, isSupabaseConfigured } from '@/lib/supabase'
 
 export function useBlog() {
   const posts = ref([])
@@ -30,6 +30,13 @@ export function useBlog() {
   async function fetchPosts() {
     loading.value = true
     error.value = null
+
+    if (!isSupabaseConfigured) {
+      posts.value = []
+      total.value = 0
+      loading.value = false
+      return
+    }
 
     try {
       const from = (page.value - 1) * perPage.value
@@ -65,6 +72,13 @@ export function useBlog() {
     loading.value = true
     error.value = null
 
+    if (!isSupabaseConfigured) {
+      posts.value = []
+      total.value = 0
+      loading.value = false
+      return
+    }
+
     try {
       const { data, error: err } = await supabase
         .from('posts')
@@ -88,6 +102,12 @@ export function useBlog() {
     error.value = null
     post.value = null
 
+    if (!isSupabaseConfigured) {
+      post.value = null
+      loading.value = false
+      return
+    }
+
     try {
       const { data, error: err } = await supabase
         .from('posts')
@@ -108,6 +128,12 @@ export function useBlog() {
   async function fetchLatestPosts(limit = 6) {
     loading.value = true
     error.value = null
+
+    if (!isSupabaseConfigured) {
+      posts.value = []
+      loading.value = false
+      return
+    }
 
     try {
       const { data, error: err } = await supabase
@@ -132,6 +158,12 @@ export function useBlog() {
     loading.value = true
     error.value = null
 
+    if (!isSupabaseConfigured) {
+      error.value = 'Database belum dikonfigurasi. Harap buat file .env dengan kredensial Supabase.'
+      loading.value = false
+      return null
+    }
+
     try {
       const slug = formData.slug || generateSlug(formData.title)
 
@@ -155,6 +187,12 @@ export function useBlog() {
     loading.value = true
     error.value = null
 
+    if (!isSupabaseConfigured) {
+      error.value = 'Database belum dikonfigurasi. Harap buat file .env dengan kredensial Supabase.'
+      loading.value = false
+      return null
+    }
+
     try {
       const { data, error: err } = await supabase
         .from('posts')
@@ -176,6 +214,12 @@ export function useBlog() {
   async function deletePost(id) {
     loading.value = true
     error.value = null
+
+    if (!isSupabaseConfigured) {
+      error.value = 'Database belum dikonfigurasi. Harap buat file .env dengan kredensial Supabase.'
+      loading.value = false
+      return false
+    }
 
     try {
       const { error: err } = await supabase
@@ -225,5 +269,6 @@ export function useBlog() {
     updatePost,
     deletePost,
     generateSlug,
+    isConfigured: isSupabaseConfigured
   }
 }

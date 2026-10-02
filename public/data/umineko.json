@@ -6,8 +6,13 @@
       "fullTitle": "Episode 1: Legenda Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/c0101_a.webp",
       "summary": "4 dan 5 Oktober 1986. Keluarga Ushiromiya berkumpul di pulau pribadi Rokkenjima untuk konferensi keluarga tahunan mereka. Agenda utama adalah perebutan harta warisan dari kepala keluarga yang sedang sakit, Kinzo. Namun, saat keluarga itu terjebak di pulau oleh sebuah topan, mereka menerima surat yang mengaku berasal dari penyihir yang dikabarkan menghuni pulau tersebut, Beatrice, dan peristiwa misterius pun mulai terjadi.",
-      "progress": 80,
-      "stats": { "total": 22, "done": 22, "proses": 0, "belum": 0 },
+      "progress": 100,
+      "stats": {
+        "total": 23,
+        "done": 23,
+        "proses": 0,
+        "belum": 0
+      },
       "chapters": [
         {
           "name": "Prolog",
@@ -19,7 +24,7 @@
           "name": "Chapter 1",
           "status": "done",
           "translator": "Andika Alakate",
-          "updatedAt": "2025-07-15"        
+          "updatedAt": "2025-07-15"
         },
         {
           "name": "Chapter 2",
@@ -150,7 +155,7 @@
       ],
       "teamNote": "Masih belum ditranslation check dan quality check.",
       "activity": [
-        "Chapter 1 diperbarui",
+        "Revisi honorifik Tuan Besar",
         "QC Prolog selesai",
         "Revisi Chapter 5"
       ]
@@ -161,8 +166,13 @@
       "fullTitle": "Episode 2: Kembalinya Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/c0202_a.webp",
       "summary": "Setelah peristiwa Tea Party dalam Legenda Penyihir Emas, episode ini mengembangkan konfrontasi antara Battler dan Beatrice, yang masing-masing berusaha membuktikan bahwa posisi pihak lain mengenai keberadaan sihir salah. Konflik di antara mereka berlangsung di tingkat yang lebih tinggi, memungkinkan mereka mengawasi peristiwa di pulau, di mana pembunuhan terulang kembali dalam keadaan yang berbeda. Episode ini juga sangat menekankan hubungan antara Jessica dan Kanon, George dan Shannon, serta Maria dan Rosa.",
-      "progress": 83.3,
-      "stats": { "total": 24, "done": 23, "proses": 1, "belum": 0 },
+      "progress": 100,
+      "stats": {
+        "total": 24,
+        "done": 24,
+        "proses": 0,
+        "belum": 0
+      },
       "chapters": [
         {
           "name": "Prolog",
@@ -208,9 +218,9 @@
         },
         {
           "name": "Chapter 7",
-          "status": "proses",
-          "translator": "Lilith TL",
-          "updatedAt": "2025-08-12"
+          "status": "done",
+          "translator": "Frederizal",
+          "updatedAt": "2026-09-02"
         },
         {
           "name": "Chapter 8",
@@ -254,7 +264,8 @@
           "translator": "Mamat Supriyanto",
           "updatedAt": "2026-02-20"
         },
-        { "name": "Chapter 15",
+        {
+          "name": "Chapter 15",
           "status": "done",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
@@ -277,7 +288,8 @@
           "translator": "Lawliet",
           "updatedAt": "2025-12-31"
         },
-        { "name": "Tea Party (Ch 19)",
+        {
+          "name": "Tea Party (Ch 19)",
           "status": "done",
           "translator": "Lawliet",
           "updatedAt": "2026-01-05"
@@ -309,8 +321,8 @@
       ],
       "teamNote": null,
       "activity": [
-        "Chapter 2 diperbarui",
-        "QC Chapter 7 selesai",
+        "Chapter 7 selesai",
+        "Revisi honorifik Tuan Besar",
         "Revisi Chapter 14"
       ]
     },
@@ -320,14 +332,19 @@
       "fullTitle": "Episode 3: Perjamuan Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/c0301.webp",
       "summary": "Episode ini melanjutkan pertarungan antara Battler dan Beatrice, dengan peristiwa di pulau yang memberi perhatian khusus pada Eva Ushiromiya. Perdebatan Battler melawan sihir menjadi semakin rumit dengan munculnya penyihir dan iblis baru, dan saat orang dewasa Ushiromiya melakukan upaya serius untuk memecahkan epitaf, Battler mulai mempelajari lebih banyak tentang masa lalu Beatrice dan kondisi pulau tersebut.",
-      "progress": 62.5,
-      "stats": { "total": 24, "done": 15, "proses": 9, "belum": 0 },
+      "progress": 79.2,
+      "stats": {
+        "total": 24,
+        "done": 19,
+        "proses": 5,
+        "belum": 0
+      },
       "chapters": [
         {
           "name": "Prolog",
           "status": "done",
           "translator": "Bil",
-          "updatedAt": "2025-0-15"
+          "updatedAt": "2025-08-15"
         },
         {
           "name": "Chapter 1",
@@ -359,77 +376,92 @@
           "translator": "Frederizal",
           "updatedAt": "2026-01-17"
         },
-        { "name": "Chapter 6",
-          "status": "proses",
-          "translator": "Bagus Setiawan",
-          "updatedAt": "2025-12-28"
+        {
+          "name": "Chapter 6",
+          "status": "done",
+          "translator": "Frederizal",
+          "updatedAt": "2026-09-21"
         },
-        { "name": "Chapter 7",
+        {
+          "name": "Chapter 7",
           "status": "done",
           "translator": "Frederizal",
           "updatedAt": "2026-02-16"
-      },
-        { "name": "Chapter 8",
+        },
+        {
+          "name": "Chapter 8",
           "status": "done",
           "translator": "Frederizal",
           "updatedAt": "2026-03-16"
         },
-        { "name": "Chapter 9",
-          "status": "proses",
+        {
+          "name": "Chapter 9",
+          "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2026-03-16"
+          "updatedAt": "2026-05-11"
         },
-        { "name": "Chapter 10",
-          "status": "proses",
+        {
+          "name": "Chapter 10",
+          "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2026-03-16"
+          "updatedAt": "2026-06-10"
         },
-        { "name": "Chapter 11",
-          "status": "proses",
+        {
+          "name": "Chapter 11",
+          "status": "done",
           "translator": "Frederizal",
-          "updatedAt": "2026-03-16"
+          "updatedAt": "2026-07-08"
         },
-        { "name": "Chapter 12",
+        {
+          "name": "Chapter 12",
           "status": "proses",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
         },
-        { "name": "Chapter 13",
+        {
+          "name": "Chapter 13",
           "status": "proses",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
         },
-        { "name": "Chapter 14",
+        {
+          "name": "Chapter 14",
           "status": "proses",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
         },
-        { "name": "Chapter 15",
+        {
+          "name": "Chapter 15",
           "status": "proses",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
         },
-        { "name": "Chapter 16",
+        {
+          "name": "Chapter 16",
           "status": "proses",
           "translator": "Se Rene",
           "updatedAt": "2026-01-18"
-       },
-        { "name": "Chapter 17",
+        },
+        {
+          "name": "Chapter 17",
           "status": "done",
           "translator": "Lawliet",
           "updatedAt": "2026-03-14"
         },
-        { "name": "Chapter 18",
+        {
+          "name": "Chapter 18",
           "status": "done",
           "translator": "Lawliet",
           "updatedAt": "2026-03-16"
         },
-        { "name": "Tea Party (Ch 19)",
+        {
+          "name": "Tea Party (Ch 19)",
           "status": "done",
           "translator": "Lawliet",
           "updatedAt": "2026-03-17"
         },
-        { "name": "Ura (Ch 20)",
+        {
+          "name": "Ura (Ch 20)",
           "status": "done",
           "translator": "Lawliet",
           "updatedAt": "2026-03-21"
@@ -454,7 +486,11 @@
         }
       ],
       "teamNote": null,
-      "activity": []
+      "activity": [
+        "Chapter 6 selesai",
+        "Chapter 11 selesai",
+        "Chapter 10 selesai"
+      ]
     },
     {
       "id": "ep4",
@@ -462,8 +498,13 @@
       "fullTitle": "Episode 4: Aliansi Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/e0405.webp",
       "summary": "Episode ini memperkenalkan adik perempuan Battler, Ange, sebagai protagonis kedua, yang tidak hadir dalam konferensi keluarga Ushiromiya tahun 1986 dan kemudian diasuh oleh Eva, satu-satunya penyintas dari Rokkenjima Mass Murders Incident. Alur cerita berpindah antara papan permainan dan dunia luar, memperlihatkan kepada pembaca dampak insiden tersebut terhadap kehidupan Ange serta menggali hubungannya dengan Maria dan sihir melalui buku harian Maria.",
-      "progress": 0,
-      "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
+      "progress": 44,
+      "stats": {
+        "total": 25,
+        "done": 11,
+        "proses": 7,
+        "belum": 7
+      },
       "chapters": [
         {
           "name": "Prolog",
@@ -479,9 +520,9 @@
         },
         {
           "name": "Chapter 2",
-          "status": "proses",
+          "status": "done",
           "translator": "Mamat Supriyanto",
-          "updatedAt": "2026-03-04"
+          "updatedAt": "2026-07-23"
         },
         {
           "name": "Chapter 3",
@@ -527,21 +568,21 @@
         },
         {
           "name": "Chapter 10",
-          "status": "proses",
+          "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2026-03-21"
+          "updatedAt": "2026-05-07"
         },
         {
           "name": "Chapter 11",
-          "status": "proses",
+          "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2026-03-21"
+          "updatedAt": "2026-06-22"
         },
         {
           "name": "Chapter 12",
-          "status": "proses",
+          "status": "done",
           "translator": "Lawliet",
-          "updatedAt": "2026-03-21"
+          "updatedAt": "2026-08-14"
         },
         {
           "name": "Chapter 13",
@@ -617,7 +658,12 @@
         }
       ],
       "teamNote": null,
-      "activity": []
+      "activity": [
+        "Audit & QA/QC Episode 4 selesai (100% PASS)",
+        "Chapter 12 selesai",
+        "Chapter 2 selesai",
+        "Chapter 11 selesai"
+      ]
     },
     {
       "id": "ep5",
@@ -625,137 +671,148 @@
       "fullTitle": "Episode 5: Akhir dari Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/ep504.webp",
       "summary": "Lambdadelta mengambil alih sebagai Game Master setelah kekalahan Beatrice di akhir arc sebelumnya, sementara Bernkastel memegang kendali utama atas sisi manusia dalam permainan. Sementara itu, Battler berusaha memahami kebenaran di balik permainan Beato dan terlibat konflik dengan Erika Furudo, seorang karakter detektif ciptaan Bern yang mendekati pembunuhan di pulau dari sudut pandang “misteri”, berlawanan dengan sikap “anti-fantasi” Battler. Episode ini juga menyoroti Natsuhi, yang menerima panggilan telepon bernada ancaman dari “Pria dari 19 Tahun Lalu”.",
-      "progress": 0,
-      "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
+      "progress": 33.3,
+      "stats": {
+        "total": 21,
+        "done": 7,
+        "proses": 0,
+        "belum": 14
+      },
       "chapters": [
-          {
-            "name": "Prolog",
-            "status": "done",
-            "translator": "Andika Alakate",
-            "updatedAt": "2025-12-31"
-          },
-          {
-            "name": "Chapter 1",
-            "status": "done",
-            "translator": "Andika Alakate",
-            "updatedAt": "2026-12-31"
-          },
-          {
-            "name": "Chapter 2",
-            "status": "done",
-            "translator": "Andika Alakate",
-            "updatedAt": "2026-12-31"
-          },
-          {
-            "name": "Chapter 3",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 4",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 5",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 6",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 7",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 8",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 9",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 10",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-          },
-          {
-            "name": "Chapter 11",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-            },
-          {
-            "name": "Chapter 12",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-            "name": "Chapter 13",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-            "name": "Chapter 14",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-            "name": "Chapter 15",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-            "name": "Tea Party (Ch 16)",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-            "name": "Ura (Ch 17)",
-            "status": "belum",
-            "translator": "",
-            "updatedAt": ""
-           },
-          {
-              "name": "Bonus",
-              "status": "done",
-              "translator": "Andika Alakate",
-              "updatedAt": "2025-08-13"
-           },           {
-              "name": "Movie (Subtitle)",
-              "status": "done",
-              "translator": "Andika Alakate",
-              "updatedAt": "2025-08-13"
-           },
-           {
-              "name": "UI / UX",
-              "status": "done",
-              "translator": "Andika Alakate",
-              "updatedAt": "2025-08-13"
-           }
+        {
+          "name": "Prolog",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2026-04-26"
+        },
+        {
+          "name": "Chapter 1",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2026-04-26"
+        },
+        {
+          "name": "Chapter 2",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2026-04-26"
+        },
+        {
+          "name": "Chapter 3",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2026-10-02"
+        },
+        {
+          "name": "Chapter 4",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 5",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 6",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 7",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 8",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 9",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 10",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 11",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 12",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 13",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 14",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Chapter 15",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Tea Party (Ch 16)",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Ura (Ch 17)",
+          "status": "belum",
+          "translator": "",
+          "updatedAt": ""
+        },
+        {
+          "name": "Bonus",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2025-08-13"
+        },
+        {
+          "name": "Movie (Subtitle)",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2025-08-13"
+        },
+        {
+          "name": "UI / UX",
+          "status": "done",
+          "translator": "Andika Alakate",
+          "updatedAt": "2025-08-13"
+        }
       ],
       "teamNote": null,
-      "activity": []
+      "activity": [
+        "Audit & QA/QC Episode 5 selesai (100% PASS)",
+        "Chapter 3 selesai",
+        "Prolog–Chapter 2 diselaraskan",
+        "Prolog selesai"
+      ]
     },
     {
       "id": "ep6",
@@ -764,7 +821,12 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/ep606_3.webp",
       "summary": "Setelah menjadi Game Master baru di akhir Episode Akhir dari Penyihir Emas, Battler mendapat tugas untuk menciptakan papan permainan miliknya sendiri sebagai cara untuk menunjukkan pemahamannya terhadap permainan Beatrice. Beatrice juga terlahir kembali, tetapi sosok barunya tidak memiliki ingatan Beatrice yang asli dan berkepribadian pemalu. Permainan Battler berfokus pada pasangan George dan Shannon, serta Jessica dan Kanon, yang mengikuti “Ujian Cinta” untuk menentukan hubungan mana yang akan bertahan. Beatrice ikut bergabung dalam ujian-ujian ini sebagai bagian dari pencariannya untuk menemukan jati diri masa lalunya, dan bertemu dengan versi lain dari Beato, sementara Erika mengambil peran dalam permainan Battler. Seiring dengan peristiwa tersebut, Ange membaca sebuah manuskrip karya pemalsu misterius Tohya Hachijo, penulis kisah-kisah permainan ketiga hingga keenam.",
       "progress": 0,
-      "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
+      "stats": {
+        "total": 0,
+        "done": 0,
+        "proses": 0,
+        "belum": 0
+      },
       "chapters": [],
       "teamNote": null,
       "activity": []
@@ -774,8 +836,14 @@
       "title": "Episode 7",
       "fullTitle": "Episode 7: Requiem Penyihir Emas",
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/ep701.webp",
-      "summary": "Episode ini menyajikan sebuah realitas alternatif di mana Battler tidak datang ke Rokkenjima, Penyihir Emas tidak pernah ada, dan seorang anak misterius bernama Lion ditetapkan sebagai penerus keluarga Ushiromiya. Detektif Willard H. Wright ditugaskan oleh Bernkastel untuk menyelidiki dunia yang aneh ini dan mengungkap kebenaran di balik Beatrice. Episode ini menggali pengalaman masa lalu sejumlah karakter, termasuk Kinzo dan sosok yang kelak menjadi Beatrice.",      "progress": 0,
-      "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
+      "summary": "Episode ini menyajikan sebuah realitas alternatif di mana Battler tidak datang ke Rokkenjima, Penyihir Emas tidak pernah ada, dan seorang anak misterius bernama Lion ditetapkan sebagai penerus keluarga Ushiromiya. Detektif Willard H. Wright ditugaskan oleh Bernkastel untuk menyelidiki dunia yang aneh ini dan mengungkap kebenaran di balik Beatrice. Episode ini menggali pengalaman masa lalu sejumlah karakter, termasuk Kinzo dan sosok yang kelak menjadi Beatrice.",
+      "progress": 0,
+      "stats": {
+        "total": 0,
+        "done": 0,
+        "proses": 0,
+        "belum": 0
+      },
       "chapters": [],
       "teamNote": null,
       "activity": []
@@ -787,7 +855,12 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/episode/ep818.webp",
       "summary": "Episode terakhir berfokus pada Ange, yang dalam pencariannya untuk mengungkap kebenaran di balik Rokkenjima Mass Murders Incident diberi kesempatan oleh Battler untuk pergi ke Rokkenjima sebagai dirinya yang berusia enam tahun. Konflik utama berpusat pada pertarungan antara Battler dan Bernkastel dalam meyakinkan Ange akan sudut pandang masing-masing tentang bagaimana seharusnya dia mendekati kebenaran dan pencariannya terhadap hal tersebut.",
       "progress": 0,
-      "stats": { "total": 0, "done": 0, "proses": 0, "belum": 0 },
+      "stats": {
+        "total": 0,
+        "done": 0,
+        "proses": 0,
+        "belum": 0
+      },
       "chapters": [],
       "teamNote": null,
       "activity": []
@@ -800,11 +873,13 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/Andika_Alakate.webp",
       "link": "https://www.facebook.com/andikaalakate",
       "gradient": "from-cyan-700/50",
-      "progress": 90,
+      "progress": 98,
       "activity": [
-        "Selesai UI / UX Episode 1",
-        "QC Chapter Prolog",
-        "Revisi dialog Chapter 3"
+        "Selesai Chapter 3 Episode 5",
+        "Pembaruan Glosarium Resmi & Harmonisasi",
+        "Revisi honorifik Tuan Besar",
+        "Selesai Chapter 1–2 Episode 5",
+        "Selesai Prolog Episode 5"
       ]
     },
     {
@@ -813,11 +888,11 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/Frederizal.webp",
       "link": "https://www.facebook.com/frederizal",
       "gradient": "from-red-700/50",
-      "progress": 95,
+      "progress": 98,
       "activity": [
-        "Selesai Chapter 6–16 Episode 1",
-        "QC Chapter 9",
-        "Revisi dialog Chapter 12"
+        "Selesai Chapter 6 Episode 3",
+        "Selesai Chapter 7 Episode 2",
+        "Selesai Chapter 9–11 Episode 3"
       ]
     },
     {
@@ -826,11 +901,11 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/Mamat_Supriyanto.webp",
       "link": "https://www.facebook.com/masup.kun",
       "gradient": "from-blue-700/50",
-      "progress": 80,
+      "progress": 85,
       "activity": [
-        "Selesai Chapter 5, 15 Episode 2",
-        "QC Chapter 14",
-        "Revisi dialog Chapter 1"
+        "Selesai Chapter 2 Episode 4",
+        "Selesai Chapter 1 Episode 4",
+        "Selesai Prolog Episode 4"
       ]
     },
     {
@@ -840,7 +915,10 @@
       "link": "https://www.facebook.com/profile.php?id=100009413821602",
       "gradient": "from-slate-700/50",
       "progress": 70,
-      "activity": ["Selesai Chapter 1–3 Episode 2", "Revisi Chapter 10"]
+      "activity": [
+        "Selesai Chapter 1–3 Episode 2",
+        "Revisi Chapter 10"
+      ]
     },
     {
       "nama": "Lawliet",
@@ -848,8 +926,12 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/Lawliet.webp",
       "link": "https://www.facebook.com/yoki.siagian.7",
       "gradient": "from-red-700/50",
-      "progress": 75,
-      "activity": ["Selesai Chapter 3–8 Episode 2", "Revisi Chapter 11"]
+      "progress": 85,
+      "activity": [
+        "Selesai Chapter 12 Episode 4",
+        "Selesai Chapter 11 Episode 4",
+        "Selesai Chapter 10 Episode 4"
+      ]
     },
     {
       "nama": "Lilith TL",
@@ -858,7 +940,9 @@
       "link": "https://www.tiktok.com/@azazelltrinity",
       "gradient": "from-red-700/50",
       "progress": 60,
-      "activity": ["Selesai Chapter 6–7 Episode 2"]
+      "activity": [
+        "Selesai Chapter 6 Episode 2"
+      ]
     },
     {
       "nama": "Bil",
@@ -867,7 +951,9 @@
       "link": "https://www.facebook.com/profile.php?id=100088529629772",
       "gradient": "from-slate-700/50",
       "progress": 40,
-      "activity": []
+      "activity": [
+        "Selesai Prolog Episode 3"
+      ]
     },
     {
       "nama": "Se Rene",
@@ -876,7 +962,10 @@
       "link": "https://www.facebook.com/se.rene.127736",
       "gradient": "from-slate-700/50",
       "progress": 35,
-      "activity": []
+      "activity": [
+        "Selesai Chapter 15 Episode 2",
+        "Proses Chapter 12–16 Episode 3"
+      ]
     },
     {
       "nama": "HiazeAlter",
@@ -884,8 +973,11 @@
       "pic": "https://cdn.kurokidaizaya.my.id/umineko/public/team/HiazeAlter.webp",
       "link": "https://www.facebook.com/hiaze.alter",
       "gradient": "from-gray-700/50",
-      "progress": 10,
-      "activity": []
+      "progress": 20,
+      "activity": [
+        "Selesai Chapter 7–8 Episode 4",
+        "Proses Chapter 5–6, 9 Episode 4"
+      ]
     },
     {
       "nama": "Angga Kun",
@@ -894,7 +986,10 @@
       "link": "https://www.facebook.com/angga.kun.12720",
       "gradient": "from-fuchsia-700/50",
       "progress": 85,
-      "activity": ["Selesai Movie Subtitle Episode 1", "QC Subtitle Episode 2"]
+      "activity": [
+        "Selesai Movie Subtitle Episode 1",
+        "QC Subtitle Episode 2"
+      ]
     }
   ]
 }

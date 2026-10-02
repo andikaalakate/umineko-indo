@@ -375,7 +375,7 @@
                 Gagal memuat postingan: {{ error }}
               </p>
               <button
-                @click="fetchPosts"
+                @click="fetchLatestPosts"
                 class="mt-4 bg-black/75 border-2 border-white px-6 py-2 font-bold uppercase hover:bg-white hover:text-black transition-all duration-500"
               >
                 Coba Lagi
@@ -383,7 +383,7 @@
             </div>
 
             <div
-              v-if="posts.length === 0"
+              v-else-if="posts.length === 0"
               class="text-center text-gray-400 py-20"
             >
               <p class="text-2xl font-bold mb-4">Belum ada postingan</p>
@@ -551,7 +551,7 @@
                   class="w-full h-full object-cover filter invert group-hover:filter-none transition-all duration-500"
               /></a>
               <a
-                href="https://github/andikaalakate/"
+                href="https://github.com/andikaalakate/umineko-scripting-idn"
                 class="w-full h-full border-2 border-white aspect-square bg-black group hover:border-black hover:bg-white transition-all duration-500"
                 ><img
                   src="https://cdn.kurokidaizaya.my.id/umineko/public/boxicons/svg/brands/bx-github.svg"
